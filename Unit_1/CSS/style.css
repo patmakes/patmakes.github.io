@@ -1,13 +1,14 @@
 style.css
-head {background-color: #000000;
+head {
+	background-color: #000000;
 }
 
 body {
-	background-color: #000000;
 	text-align: center;
+	background-color: #000000;
 }
 
 h1, p {
-	color: #C0C0C0;
 	background-color: #000000;
+	color: #C0C0C0;
 }
