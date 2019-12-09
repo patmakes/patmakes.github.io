@@ -13,3 +13,10 @@ h1, p {
 	color: silver;
 	background-color: black;
 }
+
+h1 {
+	font-family: monospace;
+}
+p {
+	font-family: sans-serif;
+}
