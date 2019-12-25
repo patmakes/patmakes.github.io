@@ -1,0 +1,34 @@
+h1 {
+	font-family: "Magneto", monospace;
+	text-align: center;
+	font-weight: normal;
+	text-decoration: underline;
+	text-transform: unset;
+	font-size: 65px;
+	color: #FFD700;
+}
+h2 {
+	font-family: "Papyrus", monospace;
+	text-align: center;
+	font-style: italic;
+	text-decoration: none;
+	color: #d4af37;
+}
+hr {
+	color: #FFD700;
+	background-color: #FFD700
+}
+p {
+	font-family: "Courier New", monospace;
+	text-align: center;
+	color: #FBEEE4;
+}
+body {
+	background-color: rgba(4,99,7,.5)
+}
+#article1 {
+	background-color: rgba(144,238,144,.1);
+}
+#bathroom1 {
+	text-align: center;
+}
