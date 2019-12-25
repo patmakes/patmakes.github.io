@@ -16,7 +16,6 @@ h2 {
 }
 hr {
 	color: #FFD700;
-	background-color: #FFD700
 }
 p {
 	font-family: "Courier New", monospace;
@@ -24,7 +23,7 @@ p {
 	color: #FBEEE4;
 }
 body {
-	background: url(unit_3/images/examplebathroom.jpg)
+	background: url(unit_3/images/examplebathroom.jpg);
 }
 #article1 {
 	background-color: rgba(144,238,144,.1);
