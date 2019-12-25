@@ -23,7 +23,7 @@ p {
 	color: #FBEEE4;
 }
 body {
-	background-color: #008080;
+	background-color: rgba(000,125,125,.5);
 }
 #article1 {
 	background-color: rgba(144,238,144,.1);
