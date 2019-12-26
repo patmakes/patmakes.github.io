@@ -2,32 +2,46 @@ h1 {
 	font-family: "Magneto", monospace;
 	text-align: center;
 	font-weight: normal;
-	text-decoration: underline;
+	text-decoration: none;
 	text-transform: unset;
-	font-size: 65px;
-	color: #ED2939;
+	font-size: 64px;
+	color: #10FEFE;
 }
 h2 {
 	font-family: "Papyrus", monospace;
 	text-align: center;
 	font-style: italic;
+	font-size: 30px;
 	text-decoration: none;
-	color: #F51B00;
+	color: #12FEFE;
+	background-color: #70212850;
 }
 hr {
 	color: #F08080;
 }
+h3 {
+	font-family: "Magneto", monospace;
+	text-align: left;
+	color: #12FEFE;
+	background-color: #70212850;
+	font-size: 22px;
+}
 p {
-	font-family: "Courier New", monospace;
-	text-align: center;
+	font-family: "Magneto", monospace;
+	text-align: left;
 	color: #FBEEE4;
 }
 body {
+	background-image: url("examplebathroom.jpg");
+	background-size: cover;
 	background-color: rgba(000,125,125,.5);
 }
 #article1 {
-	background-color: rgba(144,238,144,.1);
+	background-color: #70212850;
+	color: #10FEFE;
+	font-family: "Arial", sans-serif;
+	font-size: 20px;
 }
 #bathroom1 {
-	text-align: center;
+	text-align: left;
 }
