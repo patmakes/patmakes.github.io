@@ -66,10 +66,10 @@ h2 {
 	font-size: 50px;
 	text-decoration: none;
 	color: #FFFA;
-	position: relative;
+	position: absolute;
 	padding-bottom: 240px;
 	line-height: 150%
-	width: 36em;
+	margin: 200px;
 }
 hr {
 	color: black;
@@ -138,5 +138,6 @@ div.stars {
 	text-align: left;
 	height: 300px;
 	position: absolute;
-	line-height: 125%
+	line-height: 50px;
+	margin: 35px;
 }
