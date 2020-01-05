@@ -1,3 +1,51 @@
+div.space {
+	height: 150px;
+}
+div.section1 {
+	height: 275px;
+}
+div.before {
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	background-color: #888C8D;
+	right: 50%;
+	bottom: 3;
+	transform: skew(0, 20deg);
+}
+div.after {
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	background-color: #888C8D;
+	left: 50%;
+	bottom: 3;
+	transform: skew(0, -20deg);
+}
+div.before2 {
+	position: absolute;
+	height: 75px;
+	width: 150px;
+	background-color: #888C8D;
+	right: 50%;
+	bottom: 300;
+	transform: skew(0, -20deg);
+}
+div.after2 {
+	position: absolute;
+	height: 75px;
+	width: 150px;
+	background-color: #888C8D;
+	left: 50%;
+	bottom: 300;
+	transform: skew(0, 20deg);
+}
+div.section2 {
+	padding-top: 180px;
+	height: 275px;
+	background: url(../images/prettybathroom.jpg) no-repeat center center fixed;
+	width: 100%;
+}
 h1 {
 	font-family: "Magneto", monospace;
 	text-align: center;
@@ -6,6 +54,7 @@ h1 {
 	text-transform: unset;
 	font-size: 64px;
 	color: #10FEFE;
+	padding-top: 50px;
 }
 h2 {
 	font-family: "Papyrus", monospace;
@@ -14,34 +63,61 @@ h2 {
 	font-size: 30px;
 	text-decoration: none;
 	color: #12FEFE;
-	background-color: #70212850;
+	padding-bottom: 150px;
 }
 hr {
-	color: #F08080;
+	color: black;
+	border-radius: 1px solid #000;
 }
 h3 {
+	padding-top: 35px;
 	font-family: "Magneto", monospace;
-	text-align: left;
+	text-align: center;
 	color: #12FEFE;
-	background-color: #70212850;
-	font-size: 22px;
+	font-size: 40px;
 }
 p {
 	font-family: "Magneto", monospace;
-	text-align: left;
 	color: #FBEEE4;
 }
 body {
-	background-image: url("examplebathroom.jpg");
 	background-size: cover;
-	background-color: rgba(000,125,125,.5);
+	background-color: #888C8D;
+	text-align: center;
 }
-#article1 {
-	background-color: #70212850;
+div.postcontent {
+	padding-top: 10px;
+	text-align: center;
+	width: auto;
+	padding-bottom: 15px;
+}
+div.postcontent div {
+	float: left;
+	height: 300px;
+}
+div.bathroom {
+	border: 2px solid #ddd;
+	border-radius: 10px;
+	width: 65%;
+	height: 300px;
+	position: absolute fixed;
+	overflow: hidden;
+} 
+div.stars {
+	width: 34%;
+	height: 150px;
+	border-radius: 10px;
+	border: 2px solid #ddd;
+	overflow: hidden;
+}
+.article {
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 	color: #10FEFE;
 	font-family: "Arial", sans-serif;
 	font-size: 20px;
-}
-#bathroom1 {
 	text-align: left;
+	height: 300px;
+	position: absolute;
 }
