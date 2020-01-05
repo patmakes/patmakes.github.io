@@ -107,7 +107,7 @@ h4 {
 	color: #FFFA;
 	font-weight: bold;
 	font-style: italic;
-	font-size: 4em;
+	font-size: 2em;
 	padding-top: 1em;
 }
 p {
@@ -119,9 +119,8 @@ p {
 	text-align: left;
 }
 div.postcontent {
-	padding-top: 1em;
 	text-align: center;
-	width: auto;
+	width: 100%;
 	padding-bottom: .2em;
 	position: absolute;
 }
@@ -133,13 +132,12 @@ div.bathroom {
 	border: 2px solid #ddd;
 	border-radius: 2em;
 	width: 65%;
-	height: 10em;
-	position: absolute fixed;
+	height: 4em;
 	overflow: hidden;
 } 
 div.stars {
 	width: 34%;
-	height: 10em;
+	height: 4em;
 	border-radius: 2em;
 	border: 2px solid #ddd;
 	overflow: hidden;
@@ -152,8 +150,8 @@ div.stars {
 	font-family: 'El Messiri', sans-Serif;
 	font-size: 1.5em;
 	text-align: left;
-	height: 6em;
+	height: 2em;
 	position: absolute;
-	line-height: 1em;
+	line-height: 1.5em;
 	margin: 1.8em;
 }
