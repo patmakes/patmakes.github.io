@@ -41,8 +41,8 @@ div.after2 {
 	transform: skew(0, 20deg);
 }
 div.section2 {
-	padding-top: 15%;
-	height: 80%;
+	padding-top: 240px;
+	height: 540px;
 	background: url(../images/prettybathroom.jpg) no-repeat center center fixed;
 	width: 100%;
 	border-radius: 20px
@@ -67,7 +67,7 @@ h2 {
 	text-decoration: none;
 	color: #FFFA;
 	position: relative;
-	padding-bottom: 200px;
+	padding-bottom: 240px;
 	line-height: 150%
 	width: 36em;
 }
@@ -85,10 +85,15 @@ h3 {
 	font-size: 60px;
 	line-height: 1px;
 }
+h4 {
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 250px
+}
 p {
 	font-family: "Helvetica", sans-Serif;
 	color: #000E;
-	text-transform: italic;
+	font-style: italic;
 	text-decoration: underline;
 	font-size: 12px;
 	text-align: left;
