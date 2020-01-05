@@ -1,3 +1,8 @@
+body {
+	background-size: cover;
+	background-color: #DDD;
+	text-align: center;
+}
 div.space {
 	height: 150px;
 }
@@ -44,51 +49,66 @@ div.section2 {
 	padding-top: 240px;
 	height: 540px;
 	background: url(../images/prettybathroom.jpg) no-repeat center center fixed;
-	width: 100%;
 	border-radius: 20px
+	margin: 200px;
+}
+div.section3 {
+	padding-top: 15px;
+	height: 200px;
+	background: url(../images/prettybathroom.jpg) no-repeat center center fixed;
+	border-radius: 20px
+	margin: 200px;
 }
 h1 {
 	font-family: "Bodoni", Serif;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	text-align: center;
 	font-weight: bolder;
-	text-decoration: none;
-	text-transform: unset;
-	font-size: 120px;
-	color: #000;
+	text-decoration: underline;
+	font-size: 600%;
+	color: #FFFA;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	position: absolute;
+	margin: 100px;
 }
 h2 {
 	font-family: "Helvetica", sans-Serif;
-	text-shadow: 4px solid black;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	font-weight: bold;
 	font-size: 50px;
 	text-decoration: none;
 	color: #FFFA;
 	position: absolute;
-	padding-bottom: 240px;
+	padding-top: 300px;
+	padding-bottom: 100px;
 	line-height: 150%
 	margin: 200px;
+	text-align: center;
 }
 hr {
 	color: black;
 	border-radius: 1px solid #000;
 }
 h3 {
-	padding-top: 100px;
+	padding-top: 25px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	color: #FFFA;
 	font-family: "Bodoni", Serif;
 	text-align: left;
 	text-decoration: underline;
-	font-weight: bold;
-	color: #000E;
+	font-weight: bolder;
 	font-size: 60px;
 	line-height: 1px;
+	bottom: 3;
 }
 h4 {
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	color: #FFFA;
 	font-weight: bold;
 	font-style: italic;
-	padding-top: 250px
+	font-size: 40px;
+	padding-top: 10px;
 }
 p {
 	font-family: "Helvetica", sans-Serif;
@@ -98,16 +118,12 @@ p {
 	font-size: 12px;
 	text-align: left;
 }
-body {
-	background-size: cover;
-	background-color: #DDD;
-	text-align: center;
-}
 div.postcontent {
-	padding-top: 10px;
+	padding-top: 10em;
 	text-align: center;
 	width: auto;
-	padding-bottom: 15px;
+	padding-bottom: 5px;
+	position: absolute;
 }
 div.postcontent div {
 	float: left;
@@ -129,7 +145,7 @@ div.stars {
 	overflow: hidden;
 }
 .article {
-	padding-top: 15px;
+	padding-top: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
 	color: black;
