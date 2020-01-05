@@ -6,7 +6,7 @@ div.section1 {
 }
 div.before {
 	position: absolute;
-	height: 150px;
+	height: 25%;
 	width: 150px;
 	background-color: #888C8D;
 	right: 50%;
@@ -15,7 +15,7 @@ div.before {
 }
 div.after {
 	position: absolute;
-	height: 150px;
+	height: 25%;
 	width: 150px;
 	background-color: #888C8D;
 	left: 50%;
@@ -47,22 +47,24 @@ div.section2 {
 	width: 100%;
 }
 h1 {
-	font-family: "Magneto", monospace;
+	font-family: "Bodoni", Serif;
 	text-align: center;
 	font-weight: normal;
 	text-decoration: none;
 	text-transform: unset;
-	font-size: 64px;
+	font-size: 500%;
 	color: #10FEFE;
 	padding-top: 50px;
+	position: relative;
 }
 h2 {
-	font-family: "Papyrus", monospace;
+	font-family: "Bodoni", Serif;
 	text-align: center;
 	font-style: italic;
-	font-size: 30px;
+	font-size: 45px;
 	text-decoration: none;
 	color: #12FEFE;
+	position: relative;
 	padding-bottom: 150px;
 }
 hr {
