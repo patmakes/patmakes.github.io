@@ -6,7 +6,7 @@ div.section1 {
 }
 div.before {
 	position: absolute;
-	height: 25%;
+	height: 20%;
 	width: 150px;
 	background-color: #888C8D;
 	right: 50%;
@@ -15,7 +15,7 @@ div.before {
 }
 div.after {
 	position: absolute;
-	height: 25%;
+	height: 20%;
 	width: 150px;
 	background-color: #888C8D;
 	left: 50%;
@@ -24,7 +24,7 @@ div.after {
 }
 div.before2 {
 	position: absolute;
-	height: 75px;
+	height: 20%;
 	width: 150px;
 	background-color: #888C8D;
 	right: 50%;
@@ -33,7 +33,7 @@ div.before2 {
 }
 div.after2 {
 	position: absolute;
-	height: 75px;
+	height: 20%;
 	width: 150px;
 	background-color: #888C8D;
 	left: 50%;
@@ -41,29 +41,29 @@ div.after2 {
 	transform: skew(0, 20deg);
 }
 div.section2 {
-	padding-top: 180px;
-	height: 275px;
+	padding-top: 20%;
+	height: 80%;
 	background: url(../images/prettybathroom.jpg) no-repeat center center fixed;
 	width: 100%;
 }
 h1 {
 	font-family: "Bodoni", Serif;
 	text-align: center;
-	font-weight: normal;
+	font-weight: bolder;
 	text-decoration: none;
 	text-transform: unset;
 	font-size: 500%;
-	color: #10FEFE;
+	color: #DDD;
 	padding-top: 50px;
 	position: relative;
 }
 h2 {
-	font-family: "Bodoni", Serif;
-	text-align: center;
-	font-style: italic;
-	font-size: 45px;
+	font-family: "Helvetica", sans-Serif;
+	text-shadow: 4px solid black;
+	font-weight: bold;
+	font-size: 50px;
 	text-decoration: none;
-	color: #12FEFE;
+	color: #DDD;
 	position: relative;
 	padding-bottom: 150px;
 }
