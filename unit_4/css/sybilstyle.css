@@ -4,7 +4,7 @@ body {
 	text-align: center;
 }
 div.space {
-	height: 15em;
+	height: 8em;
 }
 div.section1 {
 	height: 15em;
@@ -126,18 +126,18 @@ div.postcontent {
 }
 div.postcontent div {
 	float: left;
-	height: 4em;
+	height: 20em;
 }
 div.bathroom {
 	border: 2px solid #ddd;
 	border-radius: 2em;
 	width: 65%;
-	height: 4em;
+	height: 20em;
 	overflow: hidden;
 } 
 div.stars {
 	width: 34%;
-	height: 4em;
+	height: 20em;
 	border-radius: 2em;
 	border: 2px solid #ddd;
 	overflow: hidden;
