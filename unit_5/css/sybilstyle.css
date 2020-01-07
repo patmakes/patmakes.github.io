@@ -34,11 +34,12 @@ h1 {
 	font-size: 4em;
 	color: #50C878;
 	position: relative;
-	margin: auto;
+	margin: .2em;
 	margin-top: 1em;
 	line-height: 3em;
 	background-color: #FFFD;
-	border-radius: 5em;
+	border-radius: 2em;
+	border-width: 2em;
 }
 h2 {
 	font-family: 'El Messiri', sans-serif;
@@ -104,7 +105,7 @@ p {
 	font-size: 1.5em;
 	text-align: left;
 	position: relative;
-	line-height: 2em;
+	line-height: 1.75em;
 	margin: 1em;
 	background-color:#50C878;
 	border-radius: 2em
@@ -139,7 +140,7 @@ div.stars {
 .article {
 	
 }
-@media (min-width: 1120px), (min-height: 630px) {
+@media (max-width: 1120px), (max-height: 630px) {
 	body {
 		background: url(../images/rbbackgroundmobile.png) fixed;
 		background-color: #EEEA;
@@ -147,4 +148,5 @@ div.stars {
 }
 p,h3 {
 	font-size: 250%
+}
 }
