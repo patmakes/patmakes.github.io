@@ -53,8 +53,8 @@ div.section2 {
 	border-radius: 2em;
 }
 div.section3 {
-	padding-top: .7em;
-	height: 9em;
+	padding-top: .1em;
+	height: 3em;
 	background: url(../images/prettybathroom.jpg) no-repeat center center fixed;
 	border-radius: 2em;
 }
@@ -64,10 +64,9 @@ h1 {
 	text-align: center;
 	font-weight: bolder;
 	text-decoration: underline;
-	font-size: 5em;
+	font-size: 4.5em;
 	color: #FFFA;
 	padding-top: 1em;
-	padding-bottom: 2em;
 	position: absolute;
 	margin: 1.2em;
 }
@@ -75,14 +74,14 @@ h2 {
 	font-family: 'El Messiri', sans-serif;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	font-weight: bold;
-	font-size: 3em;
+	font-size: 2.5em;
 	text-decoration: none;
 	color: #FFFA;
 	position: absolute;
-	padding-top: 7em;
+	padding-top: 4em;
 	padding-bottom: 4em;
-	line-height: 150%
-	margin: 2.5em;
+	line-height: 150%;
+	margin: 2em;
 	text-align: center;
 }
 hr {
@@ -90,8 +89,6 @@ hr {
 	border-radius: 1px solid #000;
 }
 h3 {
-	padding-top: .4em;
-	padding-bottom: 3em;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	color: #FFFA;
 	font-family: "Bodoni", Serif;
@@ -108,11 +105,11 @@ h4 {
 	font-weight: bold;
 	font-style: italic;
 	font-size: 2em;
-	padding-top: 1em;
+	padding-bottom: 2em;
 }
 p {
 	font-family: "Helvetica", sans-Serif;
-	color: #046397;
+	color: black;
 	font-style: italic;
 	text-decoration: underline;
 	font-size: .8em;
@@ -132,18 +129,18 @@ div.bathroom {
 	border: 2px solid #ddd;
 	border-radius: 2em;
 	width: 65%;
-	height: 20em;
+	height: 300px;
 	overflow: hidden;
 } 
 div.stars {
 	width: 34%;
-	height: 20em;
+	height: 300px;
 	border-radius: 2em;
 	border: 2px solid #ddd;
 	overflow: hidden;
 }
 .article {
-	padding-top: 1em;
+	padding-top: .5em;
 	padding-left: 1em;
 	padding-right: 1em;
 	color: black;
@@ -153,5 +150,5 @@ div.stars {
 	height: 2em;
 	position: absolute;
 	line-height: 1.5em;
-	margin: 1.8em;
+	margin: 1em;
 }
