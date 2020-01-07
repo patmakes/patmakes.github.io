@@ -41,7 +41,7 @@ h2 {
 	font-size: 2.5em;
 	text-decoration: none;
 	color: #50C878;
-	position: absolute;
+	position: relative;
 	padding-top: 4em;
 	padding-bottom: 4em;
 	line-height: 150%;
