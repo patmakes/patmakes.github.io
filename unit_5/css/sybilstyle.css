@@ -26,7 +26,6 @@ div.section3 {
 h1 {
 	font-family: 'Playfair Display SC', Serif;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-	text-align: center;
 	font-weight: bolder;
 	text-decoration: underline;
 	font-size: 4.5em;
@@ -47,7 +46,6 @@ h2 {
 	padding-bottom: 4em;
 	line-height: 150%;
 	margin: 2em;
-	text-align: center;
 }
 hr {
 	color: black;
@@ -57,7 +55,6 @@ h3 {
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	color: #50C878;
 	font-family: "Playfair Display SC", Serif;
-	text-align: center;
 	text-decoration: underline;
 	font-weight: bolder;
 	font-size: 3em;
@@ -123,6 +120,8 @@ div.stars {
 	
 }
 @media (min-width: 1120px), (min-height: 630px) {
-	body {background-size: auto;
+	body {
+
+		background-size: fill;
 		background-color: #FFFA;
 }
