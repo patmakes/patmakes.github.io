@@ -127,7 +127,9 @@ div.stars {
 }
 @media (min-width: 1120px), (min-height: 630px) {
 	body {
-		background: url(../images/rbbackgroundmobile.png);
-		background-size: auto;
+		background: url(../images/rbbackgroundmobile.png) no-repeat center fixed;
 		background-color: #EEEA;
+}
+p {
+	font-size: 16px;
 }
