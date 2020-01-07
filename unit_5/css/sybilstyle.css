@@ -121,7 +121,7 @@ div.postcontent {
 	text-align: center;
 	width: 100%;
 	padding-bottom: .2em;
-	position: absolute;
+	position: relative;
 }
 div.postcontent div {
 	float: left;
@@ -149,7 +149,7 @@ div.stars {
 	font-family: 'El Messiri', sans-Serif;
 	font-size: 1.5em;
 	text-align: left;
-	height: 9em;
+	height: 8.5em;
 	position: absolute;
 	line-height: 1.5em;
 	margin: 1em;
