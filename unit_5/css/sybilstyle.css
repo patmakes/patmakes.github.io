@@ -131,6 +131,8 @@ div.stars {
 	body {
 		background: url(../images/rbbackgroundmobile.png) no-repeat center fixed;
 		background-color: #EEEA;
-		font-size: 150%;
-		background-size: auto;
+		background-size: cover;
+}
+p,h3,h5 {
+	font-size: 200%
 }
