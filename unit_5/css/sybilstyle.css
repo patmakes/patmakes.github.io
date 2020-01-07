@@ -3,6 +3,8 @@ body {
 	background-color: #DDD;
 	text-align: center;
 	background: url(../images/prettybathroom.jpg) no-repeat center center fixed;
+	background-position: 0 0;
+
 }
 div.space {
 	height: 8em;
@@ -147,10 +149,13 @@ div.stars {
 	font-family: 'El Messiri', sans-Serif;
 	font-size: 1.5em;
 	text-align: left;
-	height: 8em;
+	height: 9em;
 	position: absolute;
 	line-height: 1.5em;
 	margin: 1em;
 	background-color:#50C878;
 	border-radius: 2em
+}
+@media (min-width: 1120px), (min-height: 630px) {
+	body {background-size: auto;
 }
