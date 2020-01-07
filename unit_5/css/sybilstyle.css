@@ -32,13 +32,13 @@ h1 {
 	font-weight: bolder;
 	text-decoration: underline;
 	font-size: 4em;
-	color: #50C878;
+	color: #FFFe;
 	position: relative;
 	margin: .2em;
 	margin-top: 1em;
 	padding-bottom: .5em;
 	line-height: 1.2em;
-	background-color: #FFFD;
+	background-color: #50C878;
 	border-radius: 2em;
 	border-width: 3em;
 }
@@ -66,8 +66,8 @@ hr {
 }
 h3 {
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-	color: #50C878;
-	background-color: #FFFD;
+	color: #FFFe;
+	background-color: #50C878;
 	font-family: "Playfair Display SC", Serif;
 	text-decoration: underline;
 	font-weight: bolder;
