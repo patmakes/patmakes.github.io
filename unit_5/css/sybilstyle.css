@@ -8,6 +8,7 @@ body {
 #wrapper {
 	width: 960px;
 	margin: 0 auto;
+	text-align: center;
 }
 div.space {
 	height: 8em;
@@ -48,14 +49,14 @@ h2 {
 	font-weight: bold;
 	font-size: 2.5em;
 	text-decoration: none;
-	color: #50C878;
+	color: #FFFE;
 	background-color: #FFF5;
 	position: relative;
 	padding-top: .5em;
 	padding-bottom: .5em;
 	line-height: 1em;
 	margin: 2em;
-	margin-top: 2em;
+	margin-top: 1em;
 	margin-bottom: 7em;
 	border: 2em;
 	border-radius: .2em
@@ -141,7 +142,7 @@ div.stars {
 .article {
 	
 }
-@media (max-width: 1120px), (max-height: 630px) {
+@media (max-width: 896px), (max-height: 414px) {
 	body {
 		background: url(../images/rbbackgroundmobile.png);
 		background-color: #EEEA;
@@ -150,4 +151,12 @@ div.stars {
 p,h3 {
 	font-size: 250%
 }
+@media (min-width: 2560px), (max-height: 1440px) {
+	body {
+		background: url(../images/rbbackground4k.png);
+		background-color: #EEEA;
+		background-size: auto;
+}
+p,h3 {
+	font-size: 250%
 }
