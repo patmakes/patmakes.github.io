@@ -1,6 +1,6 @@
 body {
 	background-size: cover;
-	background-color: #FFFA;
+	background-color: #DDDA;
 	text-align: center;
 	background: url(../images/prettybathroom.jpg) no-repeat center fixed;
 	background-position: 0 0;
@@ -31,7 +31,7 @@ h1 {
 	font-size: 4.5em;
 	color: #50C878;
 	padding-top: 1em;
-	position: absolute;
+	position: relative;
 	margin: 1em;
 }
 h2 {
@@ -42,7 +42,7 @@ h2 {
 	text-decoration: none;
 	color: #50C878;
 	position: absolute;
-	padding-top: 10em;
+	padding-top: 4em;
 	padding-bottom: 4em;
 	line-height: 150%;
 	margin: 2em;
@@ -123,5 +123,5 @@ div.stars {
 	body {
 
 		background-size: fill;
-		background-color: #FFFA;
+		background-color: #EEEA;
 }
