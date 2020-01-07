@@ -141,18 +141,18 @@ div.stars {
 .article {
 	
 }
-@media (max-width: 896px), (max-height: 414px) {
+@media (min-width: 2560px), (min-height: 1440px) {
 	body {
-		background: url(../images/rbbackgroundmobile.png);
+		background: url(../images/rbbackground4k.png);
 		background-color: #EEEA;
 		background-size: auto;
 }
 p,h3 {
 	font-size: 250%
 }
-@media (min-width: 2560px), (min-height: 1440px) {
+@media (max-width: 896px), (max-height: 414px) {
 	body {
-		background: url(../images/rbbackground4k.png);
+		background: url(../images/rbbackgroundmobile.png);
 		background-color: #EEEA;
 		background-size: auto;
 }
