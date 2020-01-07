@@ -63,7 +63,7 @@ h3 {
 	font-family: "Playfair Display SC", Serif;
 	text-decoration: underline;
 	font-weight: bolder;
-	font-size: 3em;
+	font-size: 3.5em;
 	line-height: 1em;
 	margin: 1em;
 }
@@ -133,6 +133,6 @@ div.stars {
 		background-color: #EEEA;
 		background-size: auto;
 }
-p,h3,h5 {
-	font-size: 200%
+p,h3 {
+	font-size: 250%
 }
