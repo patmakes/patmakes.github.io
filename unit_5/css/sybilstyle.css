@@ -2,7 +2,7 @@ body {
 	background-size: cover;
 	background-color: #AAAE;
 	text-align: center;
-	background: url(../images/prettybathroom.jpg) no-repeat center fixed;
+	background: url(../images/rbbackgrounddesktop.png) no-repeat center fixed;
 	background-position: 0 0;
 
 }
@@ -127,7 +127,7 @@ div.stars {
 }
 @media (min-width: 1120px), (min-height: 630px) {
 	body {
-
+		background: url(../images/rbbackgroundmobile.png);
 		background-size: auto;
 		background-color: #EEEA;
 }
