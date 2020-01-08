@@ -72,9 +72,16 @@ h3 {
 	font-weight: bolder;
 	font-size: 3.5em;
 	line-height: 2em;
-	margin: 1em;
-	border-radius: 2em
+	margin: 3em 3em 2em 3em;
+	border-radius: 2em;
 }
+.outframe {
+		border: 2em solid #Ecd5A7;
+
+}
+.inframe {
+		border: .3em solid #000A;
+	}
 h4 {
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	color: #FFFA;
@@ -89,12 +96,11 @@ h5 {
 	font-style: italic;
 	text-decoration: underline;
 	font-size: 1.2em;
-	text-align: left;
 	background-color: #FFFD;
-	margin-right: 66%;
 	border-radius: 1em;
-	margin-left: 1em;
+	margin: .2em 8em .2em 8em;
 	padding-left: .5em;
+	text-align: center;
 }
 p {
 	padding-top: .5em;
@@ -140,12 +146,21 @@ div.stars {
 .article {
 	
 }
+figcaption {
+	font-family: "El Messiri", sans-Serif;
+	color: #50C878;
+	font-style: italic;
+	text-decoration: underline;
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: bold;
+	background-color: #EEE
+}
 @media (max-width: 989px), (max-height: 415px) {
 	body {
-		background: url(../images/rbbackgroundmobile.png) no-repeat;
+		background: url(../images/rbbackgroundmobile.png);
 		background-color: #EEEA;
 		background-size: auto;
-		background-position: 0 0;
 }
 h1 {
 	font-size: 550%;
