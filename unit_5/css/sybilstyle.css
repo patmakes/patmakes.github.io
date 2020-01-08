@@ -161,7 +161,7 @@ figcaption {
 	body {
 		background: url(../images/rbbackgroundmobile.png);
 		background-color: #EEEA;
-		background-size: cover;
+		background-size: fill;
 }
 h1 {
 	font-size: 550%;
