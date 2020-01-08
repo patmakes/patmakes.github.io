@@ -1,0 +1,171 @@
+body {
+	background-size: cover;
+	background-color: #CCCE;
+	text-align: center;
+	background: url(../images/rbbackgrounddesktop.png) no-repeat center fixed;
+}
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+div.space {
+	height: 8em;
+}
+div.section1 {
+	height: 15em;
+}
+div.section2 {
+	height: 54em;
+	width: 100%;
+	border-radius: 2em;
+}
+div.section3 {
+	padding-top: .1em;
+	height: 3em;
+	background: url(../images/prettybathroom.jpg) no-repeat center center fixed;
+	border-radius: 2em;
+}
+h1 {
+	font-family: 'Playfair Display SC', Serif;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-size: 6em;
+	color: #FFFe;
+	position: relative;
+	margin: .2em;
+	margin-top: 1em;
+	padding-bottom: .5em;
+	line-height: 1.2em;
+	background-color: #50C878;
+	border-radius: 2em;
+}
+h2 {
+	font-family: 'El Messiri', sans-serif;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-weight: bold;
+	font-size: 2.5em;
+	text-decoration: none;
+	color: #FFFE;
+	background-color: #4448;
+	position: relative;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	line-height: 1.15em;
+	margin: 2em;
+	margin-top: 1em;
+	margin-bottom: 7em;
+	border: 2em;
+	border-radius: .2em
+}
+hr {
+	margin: 1em 1em 0 1em;
+	color: #50C878;
+}
+h3 {
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	color: #FFFe;
+	background-color: #50C878;
+	font-family: "Playfair Display SC", Serif;
+	text-decoration: underline;
+	font-weight: bolder;
+	font-size: 3.5em;
+	line-height: 1.15em;
+	margin: 3em 3em 2em 3em;
+	border-radius: 2em;
+	padding: 1em 1em 1em 1em;
+}
+.outframe {
+		border: 2em solid #Ecd5A7;
+
+}
+.inframe {
+		border: .3em solid #000A;
+	}
+h4 {
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	color: #FFFA;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 2em;
+	padding-bottom: 2em;
+}
+h5 {
+	font-family: "El Messiri", sans-Serif;
+	color: #50C878;
+	font-style: italic;
+	text-decoration: underline;
+	font-size: 1.2em;
+	background-color: #FFFD;
+	border-radius: 1em;
+	margin: .2em 8em .2em 8em;
+	padding-left: .5em;
+	text-align: center;
+}
+p {
+	padding-top: .5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	color: #FFFD;
+	font-family: 'El Messiri', sans-Serif;
+	font-size: 1.5em;
+	text-align: left;
+	position: relative;
+	line-height: 1.15em;
+	margin: 1em;
+	background-color:#50C878;
+	border-radius: 2em
+	
+}
+div.postcontent {
+	text-align: center;
+	width: 100%;
+	padding-bottom: 2em;
+	position: relative;
+	margin-bottom: 2em
+}
+div.postcontent div {
+	float: left;
+	height: 20em;
+	margin-bottom: 1em;
+}
+div.bathroom {
+	border: 2px solid #ddd;
+	border-radius: 2em;
+	width: 65%;
+	height: 300px;
+	overflow: hidden;
+} 
+div.stars {
+	width: 34%;
+	height: 300px;
+	border-radius: 2em;
+	border: 2px solid #ddd;
+	overflow: hidden;
+}
+.article {
+	
+}
+figcaption {
+	font-family: "El Messiri", sans-Serif;
+	color: #50C878;
+	font-style: italic;
+	text-decoration: underline;
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: bold;
+	background-color: #EEE
+}
+@media (max-width: 989px), (max-height: 415px) {
+	body {
+		background: url(../images/rbbackgroundmobile.png);
+		background-color: #EEEA;
+		background-size: fill;
+}
+h1 {
+	font-size: 550%;
+}
+p,h3 {
+	font-size: 450%;
+}
