@@ -142,7 +142,7 @@ div.stars {
 }
 @media (max-width: 989px), (max-height: 415px) {
 	body {
-		background: url(../images/rbbackgroundmobile.png) no-repeat center center fixed;
+		background: url(../images/rbbackgroundmobile.png) no-repeat fixed;
 		background-color: #EEEA;
 		background-size: auto;
 }
