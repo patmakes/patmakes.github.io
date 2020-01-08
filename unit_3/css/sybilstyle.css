@@ -1,8 +1,13 @@
+body {
+	background-image: url("unit_3/images/examplebathroom.jpg");
+	background-size: cover;
+	background-color: rgba(000,125,125,.5);
+}
 h1 {
 	font-family: "Magneto", monospace;
 	text-align: center;
 	font-weight: normal;
-	text-decoration: underline;
+	text-decoration: none;
 	text-transform: unset;
 	font-size: 65px;
 	color: #ED2939;
@@ -20,10 +25,7 @@ hr {
 p {
 	font-family: "Courier New", monospace;
 	text-align: center;
-	color: #FBEEE4;
-}
-body {
-	background-color: rgba(000,125,125,.5);
+	color: #F0F055;
 }
 #article1 {
 	background-color: rgba(144,238,144,.1);
