@@ -146,6 +146,9 @@ div.stars {
 		background-color: #EEEA;
 		background-size: auto;
 }
-h1,p,h3 {
+h1 {
+	font-size: 550%;
+}
+p,h3 {
 	font-size: 450%;
-}}
+}
