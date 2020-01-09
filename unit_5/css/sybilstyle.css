@@ -9,23 +9,6 @@ body {
 	margin: 0 auto;
 	text-align: center;
 }
-div.space {
-	height: 8em;
-}
-div.section1 {
-	height: 15em;
-}
-div.section2 {
-	height: 54em;
-	width: 100%;
-	border-radius: 2em;
-}
-div.section3 {
-	padding-top: .1em;
-	height: 3em;
-	background: url(../images/prettybathroom.jpg) no-repeat center center fixed;
-	border-radius: 2em;
-}
 h1 {
 	font-family: 'Playfair Display SC', Serif;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -55,7 +38,7 @@ h2 {
 	line-height: 1.15em;
 	margin: 2em;
 	margin-top: 1em;
-	margin-bottom: 7em;
+	margin-bottom: 3em;
 	border: 2em;
 	border-radius: .2em
 }
@@ -72,7 +55,7 @@ h3 {
 	font-weight: bolder;
 	font-size: 3.5em;
 	line-height: 1.15em;
-	margin: 3em 3em 2em 3em;
+	margin: 1em 1em 1em 1em;
 	border-radius: 2em;
 	padding: 1em 1em 1em 1em;
 }
@@ -116,36 +99,6 @@ p {
 	margin: 1em;
 	background-color:#50C878;
 	border-radius: 2em
-	
-}
-div.postcontent {
-	text-align: center;
-	width: 100%;
-	padding-bottom: 2em;
-	position: relative;
-	margin-bottom: 2em
-}
-div.postcontent div {
-	float: left;
-	height: 20em;
-	margin-bottom: 1em;
-}
-div.bathroom {
-	border: 2px solid #ddd;
-	border-radius: 2em;
-	width: 65%;
-	height: 300px;
-	overflow: hidden;
-} 
-div.stars {
-	width: 34%;
-	height: 300px;
-	border-radius: 2em;
-	border: 2px solid #ddd;
-	overflow: hidden;
-}
-.article {
-	
 }
 figcaption {
 	font-family: "El Messiri", sans-Serif;
@@ -157,6 +110,37 @@ figcaption {
 	font-weight: bold;
 	background-color: #EEE
 }
+header {
+	background-color: #FFED74;
+	border:1px black solid;
+	padding: 20px;
+}
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px
+}
+aside {
+	background-color: #FFC675;
+	border:1px black solid;
+	padding: 20px;
+}
+article  {
+	background-color: #E89C6C;
+	border:1px black solid;
+	padding: 20px;
+}
+section  {
+	background-color: #FFE2B8;
+	border:1px black solid;
+	padding: 20px;
+}
+footer {
+	background-color: #FFE2B8;
+	border:1px black solid;
+	padding: 20px;
+}
+
 @media (max-width: 989px), (max-height: 415px) {
 	body {
 		background: url(../images/rbbackgroundmobile.png);
