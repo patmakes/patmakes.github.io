@@ -161,7 +161,6 @@ footer {
 }
 #blogpic1 {
 	padding: 8em 1em;
-	margin-bottom: 4em;
 }
 #blogtext1 {
 	padding: 2em 1em 2em 1em;
@@ -188,4 +187,8 @@ h1 {
 }
 p,h3 {
 	font-size: 200%;
+}
+div.blogtext {
+	padding: 20em;
+}
 }
