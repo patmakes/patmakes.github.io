@@ -55,6 +55,7 @@ h3 {
 	font-size: 2.9em;
 	line-height: 1.15em;
 	border-radius: 2em;
+	padding-bottom: 3em;
 }
 .outframe {
 		border: 2em solid #Ecd5A7;
@@ -70,6 +71,7 @@ h4 {
 	font-weight: bold;
 	font-style: italic;
 	font-size: 2em;
+	padding: 3em;
 }
 h5 {
 	font-family: "El Messiri", sans-Serif;
@@ -82,6 +84,7 @@ h5 {
 	margin: .2em 8em .2em 8em;
 	padding-left: .5em;
 	text-align: center;
+	padding-bottom: 3em;
 }
 p {
 	color: #FFFD;
@@ -143,6 +146,7 @@ footer {
 	padding: 1em;
 	float: left;
 	width: 30%;
+	height: 100%;
 }
 #right {
 	background-color: #E55B88;
@@ -150,6 +154,7 @@ footer {
 	padding: 1em;
 	float: right;
 	width: 50%;
+	height: 100%;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -187,8 +192,5 @@ h1 {
 }
 p,h3 {
 	font-size: 200%;
-}
-div.blogpic {
-	padding: 20em 1em;
 }
 }
