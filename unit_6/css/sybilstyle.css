@@ -178,7 +178,7 @@ footer {
 
 @media (max-width: 989px), (max-height: 415px) {
 	body {
-		background: url(../images/rbbackgroundmobile.png) width 450px;
+		background: url(../images/rbbackgroundmobile.png);
 		background-color: #EEEA;
 		background-size: fill;
 }
