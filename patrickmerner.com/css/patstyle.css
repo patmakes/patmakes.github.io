@@ -5,6 +5,7 @@ body {
 }
 header {
 	background-color: #156760;
+	position: fixed relative;
 }
 h1 {
 	font-size: 4em;
@@ -15,10 +16,28 @@ h1 {
 }
 h3 {
 	font-family: 'Monoton', cursive;
-	font-size: 2em;
+	font-size: 2.5em;
 	text-align: center;
-	padding: 1em;
+	padding: .25em;
 	text-decoration: underline;
+	background: #FEB06A;
+	border-radius: .5em;
+	margin: 1em 4em 1em 4em;
+}
+h4 {
+	text-align: left;
+	font-family: 'Monoton', monospace;
+	font-size: 1.5em;
+	background: #FEB06A;
+	border-radius: .5em;
+	line-height: 1.05em;
+	padding: .5em;
+	margin:.5em 15em 1em 1em;
+}
+h4 span {
+	font-family: "Sawarabi Gothic", sans-serif;
+	font-size: .5em;
+
 }
 h5 {
 	font-family: 'Noto Serif JP', serif;
@@ -41,6 +60,7 @@ p {
 	font-family: 'Sawarabi Gothic', sans-serif;
 	padding : 1em;
 	text-align: left;
+	line-height: 1.2em;
 
 }
 nav {
@@ -48,16 +68,33 @@ nav {
 	text-decoration: none;
 	color: #FEB06A;
 }
-nav a {
-  text-decoration: none;
-  color: #FBF6F3;
-  padding: 1.8em;
-  display: inline-block;
+aside {
+	position: relative fixed;
 }
-nav a:hover {
-	background-color: #FEB06A;
 
+#navbar #holder {
+	margin: 0em 2em 0em 2em;
+}
 
+#navbar #holder ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+
+}
+#navbar #holder ul li a {
+	 text-decoration: none;
+	 float: left;
+	 margin: 1em 1em 1em 1em;
+  	 color: #FBF6F3;
+ 	 padding: 1.8em;
+ 	 display: inline-block;
+ 	 border:1px solid #eee;
+ 	 border-bottom: none;
+ 	 padding: 1em;
+ 	 text-align: center;
+ 	 font-weight: bold;
+ 	 border-radius: .5em;
 }
 #wrapper {
 	width: 960px;
@@ -72,22 +109,27 @@ nav a:hover {
 	background-color: #FFB7CF;
 	border: .5em black solid;
 	padding: 2em;
+	height: 100%uyyu;
 }
 #right {
 	background-color: #24B3A8;
 	padding: 1em;
 	float: right;
-	width: 31.5%;
+	width: 31.75%;
 	height: 100%;
 	margin-right: auto;
+	margin-bottom: auto;
+	border:1px solid #eee;
 }
 #left {
 	background-color: #30D5C8;
 	padding: 1em;
 	float: left;
-	width: 61.5%;
+	width: 61.15%;
 	height: 100%;
 	margin-left: auto;
+	margin-bottom: auto;
+	border:1px solid #eee;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -108,3 +150,25 @@ nav a:hover {
  	border-radius: .5em;
  	padding: 1em;
  }
+ #social {
+ 	float: left;
+ }
+ @media (max-width: 989px), (max-height: 415px) {
+	body {
+		font-size: 150%
+}
+#right {
+	float:none;
+	width: 100%;
+}
+#left {
+	float:none;
+	width: 100%;
+	margin-top: 4em;
+
+}
+#navbar #holder ul li a {
+	margin: 1em .5em 0em .5em;
+	margin-bottom: 3em;
+}
+}
