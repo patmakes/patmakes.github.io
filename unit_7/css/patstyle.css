@@ -21,6 +21,7 @@ h3 {
 	padding: .25em;
 	text-decoration: underline;
 	font-weight: bolder;
+	margin-bottom: 1.5em;
 }
 h4 {
 	text-align: left;
@@ -43,6 +44,7 @@ h5 {
 	margin: .5em;
 	text-align: center;
 	line-height: 3em;
+	margin-right: 1em;
 
 }
 h6 {
@@ -92,6 +94,11 @@ aside {
  	 text-align: center;
  	 font-weight: bold;
  	 border-radius: .5em;
+}
+#navbar #holder ul li a:hover {
+	background-color: #FEB06A;
+	color: #30D5C8;
+	border:.5px solid #30D5C8;
 }
 #wrapper {
 	width: 960px;
@@ -147,6 +154,7 @@ aside {
  	line-height: 1em;
  	border-radius: .5em;
  	padding: 1em;
+ 	margin-bottom: 2em;
  }
  #insta {
  	display: block;
@@ -155,6 +163,7 @@ aside {
  #linklogos {
  	text-align: : center;
  	margin-left: 4em;
+ 	margin-top: 4em;
  	
  }
  #linklogos img {
