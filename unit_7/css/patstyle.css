@@ -15,20 +15,21 @@ h1 {
 	padding: .3em;
 }
 h3 {
-	font-family: 'Monoton', cursive;
+	font-family: 'Bungee Hairline', cursive;
 	font-size: 2.5em;
 	text-align: center;
 	padding: .25em;
 	text-decoration: underline;
+	font-weight: bolder;
 }
 h4 {
 	text-align: left;
 	font-family: 'Monoton', monospace;
-	font-size: 1.5em;
+	font-size: 1.8em;
 	border-radius: .5em;
 	line-height: 1.05em;
 	padding: .5em;
-	margin:.5em 15em 1em 1em;
+	margin:.5em 6em 1em 1em;
 }
 h4 span {
 	font-family: "Sawarabi Gothic", sans-serif;
@@ -56,6 +57,7 @@ p {
 	padding : 1em;
 	text-align: left;
 	line-height: 1.2em;
+	font-size: 18pt;
 
 }
 nav {
@@ -133,6 +135,7 @@ aside {
 	content: " ";
 	clear: both;
 	height: 0;
+	margin-top: 4em;
 }
 #follow { 
 	color: #FBF6F3;
@@ -149,9 +152,14 @@ aside {
  	display: block;
 
  }
+ #linklogos {
+ 	text-align: : center;
+ 	margin-left: 4em;
+ 	
+ }
  #linklogos img {
- 	float: right;
- 	width: 20%;
+ 	float: left;
+ 	width: 17%;
  	padding: .2em .2em;
  }
  #insta img {
@@ -159,7 +167,9 @@ aside {
  	align-content: center;
  }
  #youtube img {
- 	width: 40%;
+ 	width: 65%;
+ 	float: right;
+ 	margin-right: 30%;
  }
  footer {
  	display: block;
@@ -180,14 +190,27 @@ aside {
 	margin-top: 4em;
 
 }
-#navbar #holder ul li a {
-	margin: 1em .2em 0em .2em;
+nav {
+	margin: 0em 2em 0em 2em;
 }
-#linklogos img{
-	width: 10%;
+#navbar #holder ul li a {
+	margin: .1em .2em 0em .2em;
+	font-size: 100%;
 	float: left;
 }
-#youtube img{
+#linklogos img{
 	width: 15%;
+	display: inline-block;
+	float: left;
+}
+#linklogos {
+	margin-left: 8em;
+}
+#youtube img{
+	width: 35%;
+	float: none;
+}
+#greenbass img {
+	width: 5%;
 }
 }
