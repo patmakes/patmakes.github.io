@@ -25,7 +25,6 @@ h4 {
 	text-align: left;
 	font-family: 'Monoton', monospace;
 	font-size: 1.5em;
-	background: #FEB06A;
 	border-radius: .5em;
 	line-height: 1.05em;
 	padding: .5em;
@@ -43,7 +42,6 @@ h5 {
 	margin: .5em;
 	text-align: center;
 	line-height: 3em;
-	padding-bottom: 2.3em;
 
 }
 h6 {
@@ -64,8 +62,10 @@ nav {
 	font-family: 'Major Mono Display', monospace;
 	text-decoration: none;
 	color: #FEB06A;
+	margin: 0em 8em 0em 8em;
 }
 aside {
+	height: 100%;
 }
 #navbar #holder {
 	margin: 0em 2em 0em 2em;
@@ -141,7 +141,7 @@ aside {
  }
  #username {
  	background-color: #FEB06A;
- 	line-height: 2em;
+ 	line-height: 1em;
  	border-radius: .5em;
  	padding: 1em;
  }
@@ -150,8 +150,16 @@ aside {
 
  }
  #linklogos img {
- 	margin: 1em;
- 	float: left;
+ 	float: right;
+ 	width: 20%;
+ 	padding: .2em .2em;
+ }
+ #insta img {
+ 	fill: #FEB06A;
+ 	align-content: center;
+ }
+ #youtube img {
+ 	width: 40%;
  }
  footer {
  	display: block;
@@ -173,11 +181,13 @@ aside {
 
 }
 #navbar #holder ul li a {
-	margin: 1em .5em 0em .5em;
-	margin-bottom: 3em;
+	margin: 1em .2em 0em .2em;
 }
-#insta {
-	margin: 0em 3em 3em 3em;
-	size: 200%;
+#linklogos img{
+	width: 10%;
+	float: left;
+}
+#youtube img{
+	width: 15%;
 }
 }
