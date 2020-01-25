@@ -6,6 +6,7 @@ body {
 header {
 	background-color: #156760;
 	position: fixed relative;
+	border: 2px #FEB06A solid;
 }
 h1 {
 	font-size: 4em;
@@ -15,13 +16,15 @@ h1 {
 	padding: .3em;
 }
 h3 {
-	font-family: 'Bungee Hairline', cursive;
-	font-size: 2.5em;
+	font-family: 'Libre Barcode 128 Text', cursive;
+	font-size: 4em;
 	text-align: center;
 	padding: .25em;
 	text-decoration: underline;
 	font-weight: bolder;
-	margin-bottom: 1.5em;
+	margin: 0em 2em .5em 2em;
+	background-color: #156760;
+	border-radius: .3em;
 }
 h4 {
 	text-align: left;
@@ -30,7 +33,8 @@ h4 {
 	border-radius: .5em;
 	line-height: 1.05em;
 	padding: .5em;
-	margin:.5em 6em 1em 1em;
+	background-color: #24B3AB;
+	margin-right: 50%;
 }
 h4 span {
 	font-family: "Sawarabi Gothic", sans-serif;
@@ -60,6 +64,9 @@ p {
 	text-align: left;
 	line-height: 1.2em;
 	font-size: 18pt;
+	background-color: #156760;
+	margin-bottom: 2.75em;
+	border-radius: .5em;
 
 }
 nav {
@@ -119,21 +126,21 @@ aside {
 	background-color: #24B3A8;
 	padding: 1em;
 	float: right;
-	width: 31.75%;
+	width: 32.5%;
 	height: 100%;
 	margin-right: auto;
 	margin-bottom: auto;
-	border:1px solid #eee;
+	border:2px solid #FEB06A;
 }
 #left {
 	background-color: #30D5C8;
 	padding: 1em;
 	float: left;
-	width: 61.15%;
+	width: 60%;
 	height: 100%;
 	margin-left: auto;
 	margin-bottom: auto;
-	border:1px solid #eee;
+	border:2px solid #FEB06A;
 }
 .clearfix:after {
 	visibility: hidden;
