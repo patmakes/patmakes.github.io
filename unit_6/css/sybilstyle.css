@@ -1,8 +1,7 @@
 body {
 	background-size: cover;
-	background-color: #CCCE;
+	background: url(../images/newbathroom.jpg) fixed;
 	text-align: center;
-	background: url(../images/rbbackgrounddesktop.png) no-repeat center fixed;
 }
 #wrapper {
 	width: 960px;
@@ -13,34 +12,35 @@ h1 {
 	font-family: 'Playfair Display SC', Serif;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	font-weight: bolder;
-	text-decoration: underline;
-	font-size: 6em;
-	color: #FFFe;
-	position: relative;
-	margin: .2em;
-	margin-top: 1em;
-	padding-bottom: .5em;
-	line-height: 1.2em;
-	background-color: #50C878;
+	text-decoration: none;
+	font-size: 3em;
+	color: #03396c;
+	padding: .25em 0em;
+	background-color: ;
 	border-radius: 2em;
+	text-align: left;
+	display: ;
+	margin: 0em 70% 0em 3em;
+}
+#websitelogo img {
+	width: 10%;
+	display: inherit;
+	float: left;
 }
 h2 {
-	font-family: 'El Messiri', sans-serif;
-	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-	font-weight: bold;
-	font-size: 2.5em;
+	font-family: 'Herr Von Muellerhoff', cursive;
+	font-weight: ;
+	font-size: 2em;
+	text-align: left;
 	text-decoration: none;
-	color: #FFFE;
-	background-color: #4448;
+	color: #005b96;
+	background-color: ;
 	position: relative;
-	padding-top: .5em;
-	padding-bottom: .5em;
 	line-height: 1.15em;
-	margin: 2em;
-	margin-top: 1em;
-	margin-bottom: 3em;
 	border: 2em;
 	border-radius: .2em
+	padding: .3em
+	margin left: 1em;
 }
 hr {
 	margin: 1em 1em 0 1em;
@@ -48,14 +48,14 @@ hr {
 }
 h3 {
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-	color: #FFFe;
-	font-family: "Playfair Display SC", Serif;
-	text-decoration: underline;
+	color: #FFFDD0;
+	font-family: 'Herr Von Muellerhoff', cursive;
+	text-decoration: none;
 	font-weight: bolder;
-	font-size: 2.9em;
+	font-size: 4em;
 	line-height: 1.15em;
 	border-radius: 2em;
-	padding-bottom: 3em;
+	text-align: left;
 }
 .outframe {
 		border: 2em solid #Ecd5A7;
@@ -63,7 +63,6 @@ h3 {
 
 }
 .inframe {
-		border: .3em solid #000A;
 	}
 h4 {
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -94,6 +93,7 @@ p {
 	position: relative;
 	line-height: 1.15em;
 	border-radius: 2em
+	padding: 1em;
 }
 figcaption {
 	font-family: "El Messiri", sans-Serif;
@@ -106,12 +106,13 @@ figcaption {
 	background-color: #EEE
 }
 header {
-	background-color: #FFED74;
+	background-color: #FFFDD0;
 	border:1px black solid;
-	padding: 20px;
+	padding: .1em;
+	padding-left: 2em;
 }
 nav {
-	background-color: #E8C66A;
+	background-color: #b3cde0;
 	border: 1px black solid;
 	padding: 20px;
 }
@@ -136,25 +137,33 @@ footer {
 	padding: 1em;
 }
 #two_column {
-	background-color: #FFB7CF;
+	background-color: #005b96;
 	border: 1px black solid;
 	padding: 2em;
 }
-#left {
+#social {
 	background-color: #E582A2;
 	border: 1px black solid;
 	padding: 1em;
-	float: left;
-	width: 50%;
+	float: none;
+	width: 100%;
 	height: 100%;
 }
-#right {
-	background-color: #E55B88;
+#blog {
+	background-color: #6497b1;
 	border: 1px black solid;
 	padding: 1em;
-	float: right;
-	width: 30%;
+	float: none;
+	width: 100%;
 	height: 100%;
+}
+#rating1 {
+	float: left;
+	width: 100%;
+}
+#rating1 img {
+	float: left;
+	width: 15%;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -164,11 +173,15 @@ footer {
 	clear: both;
 	height: 0;
 }
-#blogpic1 {
-	padding: 8em 1em;
+#blogpic1 img {
+	float: right;
+	border: 2em solid #Ecd5A7;
+	padding:;
+	border: .3em solid #000A;
 }
 #blogtext1 {
 	padding: 2em 1em 2em 1em;
+	display: inline;
 }
 #blogpic2 {
 	padding-bottom: 10em
@@ -188,8 +201,19 @@ footer {
 		background-size: fill;
 }
 h1 {
-	font-size: 550%;
 }
 p,h3 {
-	font-size: 200%;
+	}
+#social {
+	float: none;
+	width: 100%;
+}
+#blog {
+	float: none;
+	width: 100%;
+}
+#websitelogo img {
+	width: 15%;
+	display: inherit;
+	float: left;
 }
