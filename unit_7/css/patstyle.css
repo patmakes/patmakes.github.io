@@ -1,7 +1,7 @@
 body {
 	background-color: #1D8D84; 
 	text-align: center;
-	color: #FBF6F3;
+	color: #FFFDD0;
 }
 header {
 	background-color: #156760;
@@ -17,14 +17,15 @@ h1 {
 }
 h3 {
 	font-family: 'Libre Barcode 128 Text', cursive;
-	font-size: 4em;
+	font-size: 3em;
 	text-align: center;
 	padding: .25em;
 	text-decoration: underline;
-	font-weight: bolder;
-	margin: 0em 2em .5em 2em;
-	background-color: #156760;
+	font-weight: bold;
+	margin: 0em 4em .5em 4em;
+	background-color: ;
 	border-radius: .3em;
+	color: #FFFDD0;
 }
 h4 {
 	text-align: left;
@@ -33,13 +34,14 @@ h4 {
 	border-radius: .5em;
 	line-height: 1.05em;
 	padding: .5em;
-	background-color: #24B3AB;
+	background-color:;
+	text-decoration: ;
 	margin-right: 50%;
 }
 h4 span {
 	font-family: "Sawarabi Gothic", sans-serif;
 	font-size: .5em;
-
+	text-decoration: none;
 }
 h5 {
 	font-family: 'Noto Serif JP', serif;
@@ -92,7 +94,7 @@ aside {
 	 text-decoration: none;
 	 float: left;
 	 margin: 1em 1em 1em 1em;
-  	 color: #FBF6F3;
+  	 color: #FFFDD0;
  	 padding: 1.8em;
  	 display: inline-block;
  	 border:1px solid #eee;
