@@ -50,13 +50,14 @@ h3 {
 	font-family: "Poiret One", cursive;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	color: #FFFDD0;
-	text-decoration: underline;
-	font-weight: bolder;
+	text-decoration: none;
+	font-weight: bold;
 	font-size: 2.5em;
 	line-height: 1.15em;
 	border-radius: 2em;
-	text-align: center;
+	text-align: left;
 	margin-bottom: .5em;
+	margin-left: 3em;
 }
 .outframe {
 		border: 2em solid #Ecd5A7;
@@ -106,7 +107,7 @@ figcaption {
 	font-weight: ;
 	background-color: #EEE;
 	border-radius: .5em;
-	margin-right: 11em;
+	margin-right: 11em; 
 	padding-top: .5em;
 	padding-bottom: .3em;
 }
@@ -150,7 +151,6 @@ footer {
 	background-color: #b3cde0;
 	border: 1px black solid;
 	padding: 1em;
-	float: none;
 	width: 100%;
 	height: 100%;
 }
@@ -188,7 +188,7 @@ footer {
 }
 #blogtext1 {
 	padding: 2em 1em 2em 1em;
-	display: inline;
+	display: block;
 }
 #blogpic2 {
 	padding-bottom: 10em
@@ -209,8 +209,18 @@ footer {
 }
 h1 {
 }
-p,h3 {
+h3 {
+	text-align: left;
+	padding-left: 3em;
+	font-size: 3em;
+}
+p {
+	float: none;
+	width: 100%;
+	font-size: 2.4em;
+	display: block;
 	}
+
 #social {
 	float: none;
 	width: 100%;
@@ -219,9 +229,23 @@ p,h3 {
 	float: none;
 	width: 100%;
 }
+#blogpic1 img {
+	float: left;
+	border: 2em solid #Ecd5A7;
+	margin: 1em;
+	border: .3em solid #EEE;
+	width: 60%;
+}
 
 #websitelogo img {
 	width: 15%;
 	display: inherit;
 	float: left;
+}
+#rating1 img {
+	width: 15%;
+}
+figcaption {
+	margin-right: 5em;
+	text-align: center;
 }
