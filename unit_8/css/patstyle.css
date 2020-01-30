@@ -16,13 +16,13 @@ h1 {
 	padding: .3em;
 }
 h3 {
-	font-family: 'Libre Barcode 128 Text', cursive;
+	font-family: 'Major Mono Display', monospace;
 	font-size: 3em;
-	text-align: center;
+	text-align: left;
 	padding: .25em;
 	text-decoration: underline;
 	font-weight: bold;
-	margin: 0em 4em .5em 4em;
+	margin: 0em 40% .5em 2em;
 	background-color: ;
 	border-radius: .3em;
 	color: #FFFDD0;
@@ -75,7 +75,7 @@ nav {
 	font-family: 'Major Mono Display', monospace;
 	text-decoration: none;
 	color: #FEB06A;
-	margin: 0em 8em 0em 8em;
+	margin: 0em 15% 0em 15%;
 }
 aside {
 	height: 100%;
@@ -103,11 +103,12 @@ aside {
  	 text-align: center;
  	 font-weight: bold;
  	 border-radius: .5em;
+ 	 background-color: #24B3A8;
 }
 #navbar #holder ul li a:hover {
 	background-color: #FEB06A;
 	color: #30D5C8;
-	border:.5px solid #30D5C8;
+	border: .5px solid #30D5C8;
 }
 #wrapper {
 	width: 90%;
@@ -129,22 +130,20 @@ aside {
 	padding: 1em;
 	float: right;
 	width: 32.5%;
-	height: 100%;
+	height: auto;
 	margin-right: auto;
 	margin-bottom: auto;
-	border:2px solid #FEB06A;
-	min-height: 30em;
+	min-height: 800px;
 }
 #left {
 	background-color: #30D5C8;
 	padding: 1em;
 	float: left;
 	width: 60%;
-	height: 100%;
+	height: auto;
 	margin-left: auto;
 	margin-bottom: auto;
-	border:2px solid #FEB06A;
-	min-height: 30em;
+	min-height: 800px;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -172,65 +171,102 @@ aside {
 
  }
  #linklogos {
- 	text-align: : center;
- 	margin-left: 4em;
- 	margin-top: 4em;
+ 	text-align: center;
+ 	display: block;
  	
  }
  #linklogos img {
+ 	margin: 2%;
  	float: left;
- 	width: 17%;
- 	padding: .2em .2em;
+ 	width: 15%;
+ 	padding: 2em 2em;
+ 	background-color: #FFFDD0;
+ 	border-radius: 1em;
  }
  #insta img {
  	fill: #FEB06A;
  	align-content: center;
  }
  #youtube img {
- 	width: 65%;
- 	float: right;
- 	margin-right: 30%;
+ 	float: left;
  }
  footer {
  	display: block;
  	margin-top: 4em;
  	
  }
- @media (max-width: 989px), (max-height: 415px) {
+ #greenbass img {
+ 	width: 20%;
+ 	background-color: #24B3A8;
+ 	}
+ @media only screen and (max-width: 1032px) {
 	body {
 		font-size: 150%
 }
+	h1 {
+		font-size: 34pt;
+	}
 #right {
 	float:none;
-	width: 100%;
+	width: 90%;
+	margin-left: auto;
 }
 #left {
 	float:none;
-	width: 100%;
-	margin-top: 4em;
+	width: 90%;
+	margin-right: auto;
 
 }
 nav {
 	margin: 0em 2em 0em 2em;
 }
 #navbar #holder ul li a {
-	margin: .1em .2em 0em .2em;
-	font-size: 100%;
-	float: left;
+	padding: 2em;
+	font-size: 75%;
+	float: none;
+	margin: 1em;
+	width: auto;
+}
+nav a {
+	font-size: 16pt;
+	font-size: 75%;
+	margin: 1em;
 }
 #linklogos img{
 	width: 15%;
 	display: inline-block;
-	float: left;
+	float: none;
 }
 #linklogos {
-	margin-left: 8em;
 }
 #youtube img{
-	width: 35%;
 	float: none;
 }
 #greenbass img {
 	width: 5%;
+	display: block;
+	margin-left: 40%;
 }
+}
+@media only screen and (max-width: 750px) {
+	h1 {
+		font-size: 30pt;
+	}
+	h3 {
+		font-size: 28pt;
+	}
+	h4 {
+		font-size: 22pt;
+	}
+	#navbar #holder ul li a {
+	padding: 1em;
+	font-size: 75%;
+	float: none;
+	margin: .2em;
+	width: auto;
+}
+	#linklogos img {
+		width: 9%;
+	}
+
 }
