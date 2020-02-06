@@ -553,4 +553,7 @@ nav figure img {
 		padding: .2em;
 		margin: .2em;
 		}
+nav figure img { 
+	width: 31%;
+}
 }
