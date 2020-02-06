@@ -106,7 +106,7 @@ nav figure img {
  	border-radius: 3em;
  	text-decoration: none;
  	color: #FD9E6B;
- 	margin: 0 1em 0 1em;
+ 	margin: 0 .5em 0 .5em;
 }
 #navholder div a:hover {
  	color: #323232;
@@ -541,9 +541,13 @@ nav figure img {
 	article p {
 		padding: 4%;
 		padding-bottom: 10%; 
+		margin: 1%;
 	}
 	#servicetext p {
 		margin: 1%;
+	}
+	section p {
+
 	}
 @media only screen and (max-width: 284px) {
 
