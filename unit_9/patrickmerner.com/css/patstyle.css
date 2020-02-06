@@ -70,10 +70,11 @@ nav figure img {
  	border-radius: 3em;
  	text-decoration: none;
  	color: #FD9E6B;
+ 	background-color: #323232;
  }
  nav ul li a:hover {
- 	color: #323232;
- 	background-color: #CECECE;
+ 	color: #CECECE;
+ 	background-color: #FD9E6B;
  	transition-duration: 1s;
 
  }
