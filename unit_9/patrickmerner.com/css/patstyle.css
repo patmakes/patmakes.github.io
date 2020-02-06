@@ -536,9 +536,7 @@ nav figure img {
 	#navwrap ul li a {
 		font-size: 55%;
 }
-	#subnav div a {
-		font-size: 35%;
-		}
+
 	article p {
 		padding: 4%;
 		padding-bottom: 10%; 
@@ -555,4 +553,9 @@ nav figure img {
 	#navwrap ul li a {
 		font-size: 40%;
 }
+#subnav div a {
+		font-size: 35%;
+		padding: .2em;
+		margin: .2em;
+		}
 }
