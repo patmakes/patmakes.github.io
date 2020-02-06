@@ -523,15 +523,12 @@ nav figure img {
 	h2 span {
 		visibility: hidden;
 	}
-	}
-@media only screen and (max-width: 547px) {
-
 	#smallbass {
 		visibility: hidden;
 	}
 
 	nav figure img {
-		margin: .5% 20% .5% 60%;
+		margin: .5% 25% .5% 70%;
 	}
 }
 	article p {
@@ -545,17 +542,7 @@ nav figure img {
 	section p {
 
 	}
-@media only screen and (max-width: 369px) {
-
-@media only screen and (max-width: 330px) {
-	#subnav div a {
-		font-size: 25%;
-		padding: .2em;
-		margin: .2em;
-		}
-}
-}
-@media only screen and (max-width: 430px) {
+	@media only screen and (max-width: 430px) {
 
 	header h1 {
 		font-size: 100%;
@@ -573,9 +560,9 @@ nav figure img {
 	color: #EEE;
 }
 #navholder div a {
-		font-size: 35%;
-		padding: .2em;
-		margin: .2em;
+		font-size: 75%;
+		padding: .5em;
+		margin: .5em;
 		}
 nav figure img { 
 	width: 35%;
