@@ -64,7 +64,7 @@ nav figure img {
  nav ul li a {
  	font-family: 'Major Mono Display', monospace;
  	font-size: 14pt;
- 	border: .2em #323232 solid;
+ 	border: .2em #CECECE solid;
  	display: inline;
  	padding: 1em;
  	border-radius: 3em;
@@ -483,7 +483,7 @@ nav figure img {
 		padding-bottom: 0;
 		margin-bottom: 0;
 	}
-	article p{
+	article p {
 		margin: 2%;
 		padding-bottom: 3%;
 		margin-bottom: 2%;
@@ -523,18 +523,34 @@ nav figure img {
 	}
 @media only screen and (max-width: 547px) {
 
+	#smallbass {
+		visibility: hidden;
+	}
+
 	nav figure img {
 		margin: .5% 20% .5% 60%;
 	}
 }
-@media only screen and (max-width: 433px) {
 
 	#navwrap ul li a {
 		font-size: 55%;
 }
+	#subnav div a {
+		font-size: 35%;
+		}
+	article p {
+		padding: 4%;
+		padding-bottom: 10%; 
+	}
+	#servicetext p {
+		margin: 1%;
+	}
 @media only screen and (max-width: 284px) {
 
 	#navwrap ul li a {
 		font-size: 40%;
 }
 	}
+
+
+}
