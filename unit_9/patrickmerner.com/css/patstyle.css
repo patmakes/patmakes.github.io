@@ -8,15 +8,18 @@ style.css
 hr {
 	visibility: hidden;
 }
-
-header {
+header{
+	background-color: #323232;
+	margin-bottom: 2%;
+}
+header a {
 	font-weight: bolder;
 	color: #FD9E6B; 
-	background-color: #323232;
 	font-size: 35pt;
 	text-align: center;
 	font-family: 'Bungee Hairline', cursive;
 	margin-bottom: .25em;
+	text-decoration: none;
 }
 h1 {
 	font-size: 130%;
@@ -43,12 +46,12 @@ nav figure img {
 
  }
  #smallbass {
- 	width: 12em;
+ 	width: 16%;
  	float: none;
  	position: relative;
  	display: block;
- 	margin-left: 30em;
- 	transform
+ 	margin-left: 60%;
+ 	visibility: hidden;
  }
  nav { 
  	background-color: #000;
