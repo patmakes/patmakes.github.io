@@ -140,7 +140,7 @@ article {
  }
  #servicenav img {
  	width: 7%;
- 	margin: 0em 8% 4% 8%;
+ 	margin: 0em 9% 4% 9%;
  	float: left;
  	padding: 3%;
  	background-color: #CECECE;
@@ -489,9 +489,6 @@ nav figure img {
 		padding-bottom: 3%;
 		margin-bottom: 2%;
 	}
-		#servicecaption h3 {
-		visibility: hidden;
-	}
 }
 @media only screen and (max-width: 645px) {
 
@@ -500,9 +497,6 @@ nav figure img {
 	}
 	h2 {
 		font-size: 65%;
-	}
-		#servicecaption h3 {
-		visibility: hidden;
 	}
 	}
 @media only screen and (max-width: 600px) {
@@ -522,7 +516,11 @@ nav figure img {
 		visibility: hidden;
 	}
 	}
-@media only screen and (max-width: 547px) {
+@media only screen and (max-width: 557px) {
+
+	#servicecaption h3 {
+		font-size: 10pt;
+	}
 
 	#smallbass {
 		visibility: hidden;
@@ -543,6 +541,25 @@ nav figure img {
 	section p {
 
 	}
+@media only screen and (max-width: 420px) {
+	#servicecaption h3 {
+		font-size: 8pt;
+	}
+}
+@media only screen and (max-width: 350px) {
+	#navholder div a {
+		font-size: 65%;
+	}
+	#servicecaption h3 {
+		font-size: 7pt;
+	}
+}
+@media only screen and (max-width: 300px) { 
+		#servicecaption h3 {
+		font-size: 6pt;
+	}
+
+	 }
 @media only screen and (max-width: 284px) {
 
 	#navwrap ul li a {
