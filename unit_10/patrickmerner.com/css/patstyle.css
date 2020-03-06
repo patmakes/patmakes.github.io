@@ -148,7 +148,9 @@ article {
  	min-height: 50em;
  }
  #servicenav {
- 	margin-left: 0%;
+ 	margin-left: 10%;
+ 	min-height: 30em;
+ 	margin-bottom: 5em;
  }
  #servicenav a {
  	margin: 1%;
@@ -321,14 +323,13 @@ hr {
  	background-color: #CECECE;
  	line-height: 1em;
  	border-radius: .5em;
- 	padding: 1em;
  	margin-bottom: 2em;
  }
  #linklogos img{
 	width: 4em;
 	display: inline;
 	float: left;
-	margin: 0em 4% 0em 4%;
+	margin: 0em 6% 0em 6%;
 	background-color: #CECECE;
 	border-radius: .5em;
 }
@@ -338,7 +339,7 @@ hr {
 	transition-duration: 1.5s;
 }
 #linklogos {
-	margin: 1em 32% 1em 36%;
+	margin: 1em 16% 1em 16%;
 	float: none;
 }
 figcaption {
@@ -404,7 +405,7 @@ figcaption {
 	margin-top: 5%;
 }
 #email a {
-	font-size: 20pt;
+	font-size: 25pt;
  	background-color: #CECECE55;
  	color: #FD9E6B;
  	border: 2pt solid #FD9E6B;
@@ -412,8 +413,10 @@ figcaption {
  	border-radius: 1em;
  	padding: 1em;
  	margin-bottom: 10%;
- 	margin-top: 10%;
+ 	margin-top: 2%;
  	font-family: 'Major Mono Display', monospace;
+ 	text-align: center;
+ 	margin-left: 37%;
  }
  #email a:hover {
  	color: #CECECE;
@@ -444,39 +447,48 @@ figcaption {
 }
 #biopic img {
 }
-@media only screen and (max-width: 1210px) {
+@media only screen and (max-width: 1240px) {
 
 	#servicecaption h3 {
 		font-size: 20pt;
 	}
-	@media only screen and (max-width: 1007px) {
-		#servicenav img {
-			float: none;
-		}
-		#servicenav {
-			margin: 0 20% 0 20%;
-		}
-		#servicenav a h3 {
-			transform: rotate(30deg);
-		}
+	#linklogos img { 
+	margin: 0em 3% 0em 3%;
+}
+	#linklogos {
+		margin: 1em 10% 1em 25%
 	}
-
-	}
-@media only screen and (max-width: 993px) {
+}
+@media only screen and (max-width: 1173px) {
 
 	h1 {
 		font-size: 70%;
 	}
 
 	#linklogos img {
-		width: 12%;
+		width: 10%;
 	}
 	 #servicecaption h3 {
 		font-size: 17pt;
 	}
+	#navholder {
+		margin-left: 15%;
+	}
 
-	
-}
+	@media only screen and (max-width: 1007px) {
+		#servicenav img {
+			float: none;
+			min-width: 20%;
+		}
+		#servicenav {
+			margin: 0 20% 0 20%;
+			min-height: 20em;
+		}
+		#servicenav a h3 {
+			transform: rotate(30deg);
+			margin-left: 30%;
+		}
+	}
 @media only screen and (max-width: 904px) {
 
 	#biopic img {
@@ -519,13 +531,29 @@ nav figure img {
  }
 
 }
-@media only screen and (max-width: 794px) {
+@media only screen and (max-width: 796px) {
 
 	#navholder div a {
-		font-size: 85%;
+		font-size: 92%;
 		}
-
+	#serviceshome { 
+ 	margin: 2% 20% 2% 41%;
+ 	}
+	#abouthome {
+		margin: 10% 20% 2% 43%;
 	}
+	#bloghome { 
+	margin: 10% 20% 2% 44%; 
+	}
+	body {
+		background-size: 150%;
+	}
+	#linklogos {
+		width: 110%;
+		margin: 1em 10% 1em 10%;
+	}
+	}
+
 @media only screen and (max-width: 756px) {
 
 	#biopic img {
@@ -574,6 +602,15 @@ nav figure img {
 	h2 span {
 		visibility: hidden;
 	}
+	h3 {
+		font-size: 100%;
+	}
+	#navholder {
+		margin-left: 8%;
+	}
+	#navholder div a {
+		margin: 0 5% 0 5%;
+	}
 
 	}
 @media only screen and (max-width: 557px) {
@@ -599,19 +636,19 @@ nav figure img {
 	#servicetext p {
 		margin: 1%;
 	}
-	section p {
-
-	}
 }
-@media only screen and (max-width: 463px) {
-
-	#linklogos {
-		width: 20%;
-	}
+@media only screen and (max-width: 480px) {
 
 	#username h5 span {
 		font-size: 40%;
 	}
+	#navholder {
+		margin-left: 4%;
+	}
+	#navholder div a {
+		margin: 0 2% 0 2%;
+	}
+
 }
 
 @media only screen and (max-width: 432px) {
@@ -638,13 +675,18 @@ nav figure img {
 	font-size: 8pt;
 	color: #EEE;
 }
-	#navholder div a {
-		font-size: 75%;
-		padding: .5em;
-		margin: .5em;
-		}
 nav figure img { 
 	width: 29%;
+}
+@media only screen and (max-width: 379px) {
+
+	#navholder div a { 
+	margin: 0 1% 0 1%;
+	font-size: 50%; 
+}
+	#navholder {
+		margin-left: 2%;
+	}
 }
 @media only screen and (max-width: 350px) {
 	#servicecaption h3 {
