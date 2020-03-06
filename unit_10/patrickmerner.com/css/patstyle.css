@@ -43,9 +43,9 @@ h2 {
 }
 
 body {
-	background-color: #000;
 	background: url("../images/basscover1.png") no-repeat;
 	background-size: 100%;
+	background-color: #CECECE;
 
 }
 nav figure img { 
@@ -95,16 +95,16 @@ nav figure img {
 
  }
  #serviceshome { 
- 	margin: 2% 20% 2% 37%; 
+ 	margin: 2% 20% 4% 37%; 
  }
  #servicetext p {
  	font-size: 150%;
  }
  #bloghome{
- 	margin: 10% 20% 2% 45%;
+ 	margin: 10% 20% 4% 45%;
  }
  #abouthome {
- 	margin: 10% 20% 2% 50%;
+ 	margin: 10% 20% 4% 50%;
  }
 #navwrap {
 	margin-bottom: 10%;
@@ -317,9 +317,10 @@ hr {
 	font-family: 'Major Mono Display', monospace;
 	line-height: 1em;
 	font-size: 80%;
+	padding-right: 1em;
  }
 #username {
-	font-size: 20pt;
+	font-size: 17pt;
  	background-color: #CECECE;
  	line-height: 1em;
  	border-radius: .5em;
@@ -416,7 +417,7 @@ figcaption {
  	margin-top: 2%;
  	font-family: 'Major Mono Display', monospace;
  	text-align: center;
- 	margin-left: 37%;
+ 	margin-left: 10%;
  }
  #email a:hover {
  	color: #CECECE;
@@ -548,9 +549,6 @@ nav figure img {
 	#navholder div a {
 		font-size: 92%;
 		}
-	body {
-		background-size: 150%;
-	}
 	#linklogos {
 		width: 110%;
 		margin: 1em 10% 1em 10%;
@@ -587,6 +585,9 @@ nav figure img {
 @media only screen and (max-width: 645px) {
 	h2 {
 		font-size: 65%;
+	}
+	body {
+		background-size: 180%
 	}
 	}
 @media only screen and (max-width: 600px) {
@@ -669,24 +670,21 @@ nav figure img {
 	font-size: 8pt;
 	color: #EEE;
 }
-nav figure img { 
+	nav figure img { 
 	width: 29%;
 }
-body {
-	background-size: 200%;
+
+	#serviceshome { 
+ 	margin: 2% 20% 8% 10%; 
 }
-#serviceshome { 
- 	margin: 2% 20% 2% 10%; 
- }
- #servicetext p {
- 	font-size: 150%;
- }
  #bloghome{
- 	margin: 10% 20% 2% 45%;
+ 	margin: 10% 20% 8% 45%;
  }
  #abouthome {
- 	margin: 10% 20% 2% 70%;
+ 	margin: 10% 20% 8% 70%;
  }
+
+}
 @media only screen and (max-width: 382px) {
 
 	#navholder div a { 
