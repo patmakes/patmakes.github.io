@@ -95,7 +95,7 @@ nav figure img {
 
  }
  #serviceshome { 
- 	margin: 2% 20% 2% 40%; 
+ 	margin: 2% 20% 2% 37%; 
  }
  #servicetext p {
  	font-size: 150%;
@@ -148,7 +148,7 @@ article {
  	min-height: 50em;
  }
  #servicenav {
- 	margin-left: 10%;
+ 	margin-left: 20%;
  	min-height: 30em;
  	margin-bottom: 5em;
  }
@@ -339,7 +339,7 @@ hr {
 	transition-duration: 1.5s;
 }
 #linklogos {
-	margin: 1em 16% 1em 16%;
+	margin: 1em 16% 1em 23%;
 	float: none;
 }
 figcaption {
@@ -446,6 +446,15 @@ figcaption {
 	width: 100%;
 }
 #biopic img {
+}
+@media only screen and (max-width: 1375px) {
+	#linklogos img { 
+	margin: 0em 3% 0em 3%;
+}
+	#linklogos {
+		margin: 1em 10% 1em 28%
+	}
+
 }
 @media only screen and (max-width: 1240px) {
 
@@ -643,7 +652,7 @@ nav figure img {
 		font-size: 40%;
 	}
 	#navholder {
-		margin-left: 4%;
+		margin-left: 8%;
 	}
 	#navholder div a {
 		margin: 0 2% 0 2%;
@@ -678,14 +687,14 @@ nav figure img {
 nav figure img { 
 	width: 29%;
 }
-@media only screen and (max-width: 379px) {
+@media only screen and (max-width: 382px) {
 
 	#navholder div a { 
-	margin: 0 1% 0 1%;
+	margin: 0 1% 1em 1%;
 	font-size: 50%; 
 }
 	#navholder {
-		margin-left: 2%;
+		margin-left: 1%;
 	}
 }
 @media only screen and (max-width: 350px) {
