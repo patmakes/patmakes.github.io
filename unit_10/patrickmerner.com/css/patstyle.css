@@ -4,13 +4,14 @@ style.css
 	width: 90%;
 	margin: auto;
 }
-
 hr {
-	visibility: hidden;
+	color: #000;
+	width: 100%;
 }
 header{
 	background-color: #323232;
-	margin-bottom: 2%;
+	margin-bottom: 1em;
+	border-bottom: 2pt solid #FD9E6B;
 }
 header a {
 	font-weight: bolder;
@@ -24,17 +25,17 @@ header a {
 h1 {
 	font-weight: bolder;
 	color: #FD9E6B; 
-	font-size: 35pt;
 	text-align: center;
 	font-family: 'Bungee Hairline', cursive;
-	margin-bottom: .25em;
 	text-decoration: none;
-	font-size: 130%;
+	font-size: 50pt;
+	padding: .5em;
 }
 header span {
 	font-size: 50%;
 }
 h2 {
+	color: #CECECE;
 	text-align: left;
 	padding-left: 5%;
 	padding-top: .5%;
@@ -43,6 +44,9 @@ h2 {
 
 body {
 	background-color: #000;
+	background: url("../images/basscover1.png") no-repeat;
+	background-size: 100%;
+
 }
 nav figure img { 
 	width: 18%;
@@ -61,8 +65,6 @@ nav figure img {
  	visibility: hidden;
  }
  nav { 
- 	background-color: #000;
- 	height: 100%;
  }
 
  nav.homemenubutton {
@@ -77,7 +79,7 @@ nav figure img {
  }
  nav ul li a {
  	font-family: 'Major Mono Display', monospace;
- 	font-size: 14pt;
+ 	font-size: 20pt;
  	border: .1em #CECECE solid;
  	display: inline;
  	padding: 1em;
@@ -93,22 +95,22 @@ nav figure img {
 
  }
  #serviceshome { 
- 	margin: 2% 40% 2% 25%; 
+ 	margin: 2% 20% 2% 40%; 
  }
  #servicetext p {
  	font-size: 150%;
  }
  #bloghome{
- 	margin: 10% 50% 2% 25%;
+ 	margin: 10% 20% 2% 45%;
  }
  #abouthome {
- 	margin: 10% 35% 2% 30%;
+ 	margin: 10% 20% 2% 50%;
  }
 #navwrap {
-	margin-bottom: 1em;
+	margin-bottom: 10%;
 }
 #navholder {
-	margin-left: 4%;
+	margin-left: 25%;
 
 }
 #navholder div a {
@@ -121,7 +123,8 @@ nav figure img {
  	border-radius: 3em;
  	text-decoration: none;
  	color: #FD9E6B;
- 	margin: 0 .5em 0 .5em;
+ 	margin: 0 6% 0 6%;
+ 	background-color: #323232;
 }
 #navholder div a:hover {
  	color: #323232;
@@ -136,6 +139,7 @@ aside {
  	margin-top: auto;
  	margin-left: auto;
  	margin-right: auto;
+ 	border-top: 2pt solid #FD9E6B;
  }
  h4 {
  	color: #CECECE;
@@ -153,9 +157,9 @@ article {
  }
  #servicenav div {
  	float: none;
- 	display: inline;
+ 	display: block;
  	margin: auto;
- 	margin-bottom: 10em;
+ 	margin-bottom: 15em;
  }
  #servicenav img {
  	width: 7%;
@@ -195,24 +199,26 @@ article {
  	
  }
  article p {
- 	font-size: 18pt;
- 	line-height: 1.75em;
-	padding: 4em;
+ 	font-size: 20pt;
+ 	line-height: 1.9em;
+	padding: 1% 10% 1% 10%;
 	display: block;
 	color: #CECECE;
 	border-radius: 3em;
-	margin: 1%;
+	margin: 1% 20% 1% 20%;
 	font-family: "Noto Serif JP", serif;
 }
  #servicetext p {
  	padding-bottom: 8%;
- 	padding-top: 15%
- 	margin: 4% 6% 2% 6%;
- 	margin-top: 3%;
- 	display: block;
+ 	padding-top: 15%;
+ 	text-align: right;
  }
  #textwrapper div { 
- 	margin: 4em; }
+ 	margin: 4% 6% 2% 60%;
+ 	margin: 2em;
+ 	float: right;
+}
+
  #servicecaption div {
  	margin: 5%;
  }
@@ -238,6 +244,7 @@ article {
  	margin-top: 6em;
  	background-color: #323232;
  	padding: 1%;
+ 	border-top: 2pt solid #FD9E6B;
  }
  
 #youtubewrap iframe {
@@ -245,20 +252,23 @@ article {
 	float: none;
 	margin: 0 25% 0 12%;
 	width: 70%;
+	min-height: 600px;
 }
 section {
  	margin-top: 6em;
  	background-color: #323232;
  	padding: 1%;
+ 	border-top: 2pt solid #FD9E6B;
+ 	border-bottom: 2pt solid #FD9E6B;
  }
  section p {
- 	font-size: 18pt;
- 	line-height: 1.75em;
+ 	font-size: 23pt;
+ 	line-height: 1.9em;
 	padding: 2em;
 	display: block;
 	color: #CECECE;
 	border-radius: 3em;
-	margin: 2%;
+	margin: 2% 2% 10% 2%;
 	font-family: "Noto Serif JP", serif;
 	padding-top: 1%;
 }
@@ -267,6 +277,7 @@ p span {
 	color: #323232; 
 	border-radius: 4pt;
 	padding: 2pt;
+	font-size: 120%;
 }
 h3 {
 	font-family: 'Major Mono Display', monospace;
@@ -275,11 +286,16 @@ h3 {
 	text-align: left;
 	color: #FD9E6B;
 }
+h3 span {
+	text-align: center;
+	color: #CECECE;
+}
 h4 {
 	font-family: 'Bungee Hairline', cursive;
-	margin: 1em 15% .5em 10%;
+	margin: 5% 15% .5em 10%;
 	font-size: 28pt;
 	font-weight: bold;
+	color: #FD9E6B;
 }
 h4 span {
 	font-size: 30%;
@@ -287,8 +303,7 @@ h4 span {
 h5 {
 	font-family: 'Noto Serif JP', serif;
 	font-weight: bold;
-	font-size: 1.5em;
-	margin: .5em;
+	font-size: 200%;
 	text-align: center;
 	line-height: 3em;
 }
@@ -299,30 +314,31 @@ hr {
 	color: #323232;
 	font-family: 'Major Mono Display', monospace;
 	line-height: 1em;
+	font-size: 80%;
  }
 #username {
-	font-size: 15pt;
- 	background-color: #FEB06A;
+	font-size: 20pt;
+ 	background-color: #CECECE;
  	line-height: 1em;
  	border-radius: .5em;
  	padding: 1em;
  	margin-bottom: 2em;
  }
  #linklogos img{
-	width: 12%;
+	width: 4em;
 	display: inline;
 	float: left;
 	margin: 0em 4% 0em 4%;
-	background-color: #323232;
+	background-color: #CECECE;
 	border-radius: .5em;
 }
 #linklogos img:hover {
 	color: #323232;
-	background-color: #CECECE;
+	background-color: #323232;
 	transition-duration: 1.5s;
 }
 #linklogos {
-	margin: 5% 20% 5% 25%;
+	margin: 1em 32% 1em 36%;
 	float: none;
 }
 figcaption {
@@ -336,7 +352,7 @@ figcaption {
  	margin-bottom: 2em;
 }
  footer {
- 	background-color: #32323299;
+ 	background-color: #CECECE;
  }
 
  h6 {
@@ -344,7 +360,10 @@ figcaption {
  	font-family: 'Libre Barcode 128 Text', cursive;
  	font-size: 14pt;
  	text-align: center;
- 	color: #CECECE;
+ 	color: #323232;
+ }
+ span {
+ 	font-size: 170%;
  }
  #notelogo figure {
  	float: none;
@@ -370,6 +389,7 @@ figcaption {
 	margin-bottom: auto;
 	min-height: 800px;
 	margin-top: auto;
+	border: none;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -384,13 +404,15 @@ figcaption {
 	margin-top: 5%;
 }
 #email a {
-	font-size: 9pt;
+	font-size: 20pt;
  	background-color: #CECECE55;
  	color: #FD9E6B;
+ 	border: 2pt solid #FD9E6B;
  	line-height: 1em;
  	border-radius: 1em;
  	padding: 1em;
- 	margin-bottom: 2em;
+ 	margin-bottom: 10%;
+ 	margin-top: 10%;
  	font-family: 'Major Mono Display', monospace;
  }
  #email a:hover {
@@ -398,17 +420,18 @@ figcaption {
  	background-color: #FD9E6B;
  	transition-duration: 1s;
  }
+ #biopic div { 
+ 	float: none;
+ 	display: block;
+
+  }
  #biopic img {
  	float: right;
  	border: .5em black solid;
- 	margin: 1em;
- }
- #livepic1 img {
- 	margin: auto;
+ 	margin: 0em 2em 8em 2em;
  }
  #right img {
- 	margin: auto;
-	margin-left: 1%;
+ 	width: 20%;
 	border: .2em black solid;
 }
 #right iframe {
@@ -418,6 +441,8 @@ figcaption {
 #right img {
 	margin: auto;
 	width: 100%;
+}
+#biopic img {
 }
 @media only screen and (max-width: 1210px) {
 
