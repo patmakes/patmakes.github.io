@@ -543,7 +543,7 @@ nav figure img {
 @media only screen and (max-width: 796px) {
 	
 	#navwrap ul li a {
-		font-size: 85%;
+		font-size: 95%;
 	}
 	#navholder div a {
 		font-size: 92%;
@@ -637,7 +637,6 @@ nav figure img {
 	#servicetext p {
 		margin: 1%;
 	}
-}
 @media only screen and (max-width: 480px) {
 
 	#username h5 span {
@@ -656,21 +655,21 @@ nav figure img {
 	#servicecaption h3 {
 		font-size: 8pt;
 	}
-}
-
-	 }
-	@media only screen and (max-width: 430px) {
-
-	h1 {
-		font-size: 105%;
+		h1 span {
+		visibility: hidden;
 	}
-
+	h2 span { 
+		visibility: hidden;
+	}
+	header {
+		font-size: 80%;
+	}
 	nav hr {
 	visibility: hidden;
 }
 
 	#navwrap ul li a {
-		font-size: 60%;
+		font-size: 90%;
 }
 	#email span {
 	font-size: 8pt;
@@ -679,11 +678,26 @@ nav figure img {
 nav figure img { 
 	width: 29%;
 }
+body {
+	background-size: 200%;
+}
+#serviceshome { 
+ 	margin: 2% 20% 2% 10%; 
+ }
+ #servicetext p {
+ 	font-size: 150%;
+ }
+ #bloghome{
+ 	margin: 10% 20% 2% 45%;
+ }
+ #abouthome {
+ 	margin: 10% 20% 2% 70%;
+ }
 @media only screen and (max-width: 382px) {
 
 	#navholder div a { 
 	margin: 0 1% 1em 1%;
-	font-size: 50%; 
+	font-size: 82%; 
 }
 	#navholder {
 		margin-left: 1%;
@@ -700,6 +714,5 @@ nav figure img {
 @media only screen and (max-width: 340px) { 
 		#servicecaption h3 {
 		font-size: 6pt;
-	}
 }
 }
