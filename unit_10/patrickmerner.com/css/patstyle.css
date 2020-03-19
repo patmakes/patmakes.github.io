@@ -686,14 +686,14 @@ nav figure img {
 nav figure img { 
 	width: 29%;
 }
-#serviceshome { 
- 	margin: 2% 20% 2% 10%; 
- }
  #servicetext p {
  	font-size: 150%;
  }
  section p {
  	font-size: 14pt;
+ }
+ #serviceshome { 
+ 	margin: 2% 20% 2% 10%; 
  }
  #bloghome{
  	margin: 10% 20% 2% 45%;
