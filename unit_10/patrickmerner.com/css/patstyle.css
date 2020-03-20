@@ -10,6 +10,9 @@ hr {
 }
 header{
 	background-color: #323232;
+	background: linear-gradient(top, rgba(25, 25, 25, 1), rgba(150, 150, 150, 1));
+	background: -webkit-linear-gradient(top, rgba(25, 25, 25, 1), rgba(100, 100, 100, 1));
+	background: -moz-linear-gradient(top, rgba(25, 25, 25, 1), rgba(100, 100, 100, 1));
 	margin-bottom: 1em;
 	border-bottom: 2pt solid #FD9E6B;
 }
@@ -35,7 +38,7 @@ header span {
 	font-size: 50%;
 }
 h2 {
-	color: #CECECE;
+	color: #FD9E6B;
 	text-align: left;
 	padding-left: 5%;
 	padding-top: .5%;
@@ -137,6 +140,9 @@ nav figure img {
 aside {
  	padding: 2em;
  	background-color: #CECECE;
+	background: linear-gradient(bottom, rgba(25, 25, 25, 1), rgba(206, 206, 206, 1));
+	background: -webkit-linear-gradient(bottom, rgba(25, 25, 25, 1), rgba(206, 206, 206, 1));
+	background: -moz-linear-gradient(bottom, rgba(25, 25, 25, 1), rgba(206, 206, 206, 1));
  	padding-bottom: 6em;
  	margin-top: auto;
  	margin-left: auto;
@@ -257,10 +263,14 @@ article {
 	margin: 0 auto;
 	width: 90%;
 	min-height: 70%;
+	border-radius: 1em;
 }
 section {
  	margin-top: 6em;
  	background-color: #323232;
+	background: linear-gradient(top, rgba(25, 25, 25, 1), rgba(150, 150, 150, 1));
+	background: -webkit-linear-gradient(top, rgba(25, 25, 25, 1), rgba(100, 100, 100, 1));
+	background: -moz-linear-gradient(top, rgba(25, 25, 25, 1), rgba(100, 100, 100, 1));
  	padding: 1%;
  	border-top: 2pt solid #FD9E6B;
  	border-bottom: 2pt solid #FD9E6B;
@@ -322,17 +332,16 @@ hr {
  }
 #username {
 	font-size: 20pt;
- 	background-color: #CECECE;
  	line-height: 1em;
  	border-radius: .5em;
  	margin-bottom: 2em;
+ 	text-align: center;
  }
  #linklogos img{
 	width: 4em;
 	display: inline;
 	float: left;
 	margin: 0em 6% 0em 6%;
-	background-color: #CECECE;
 	border-radius: .5em;
 }
 #linklogos img:hover {
@@ -343,6 +352,7 @@ hr {
 #linklogos {
 	margin: 1em 16% 1em 23%;
 	float: none;
+	display: block;
 }
 figcaption {
 	font-family: "Sawarabi-Gothic", sans-serif;
@@ -356,6 +366,10 @@ figcaption {
 }
  footer {
  	background-color: #CECECE;
+	background: linear-gradient(top, rgba(25, 25, 25, 1), rgba(206, 206, 206, 1));
+	background: -webkit-linear-gradient(top, rgba(25, 25, 25, 1), rgba(206, 206, 206, 1));
+	background: -moz-linear-gradient(top, rgba(25, 25, 25, 1), rgba(206, 206, 206, 1));
+
  }
 
  h6 {
@@ -364,6 +378,7 @@ figcaption {
  	font-size: 14pt;
  	text-align: center;
  	color: #323232;
+ 	margin-top: 4%;
  }
  span {
  	font-size: 170%;
