@@ -143,14 +143,13 @@ nav figure img {
 aside {
  	padding: 2em;
  	background-color: #CECECE;
-	background: linear-gradient(bottom, rgba(25, 25, 25, 1), rgba(206, 206, 206, 1));
-	background: -webkit-linear-gradient(bottom, rgba(25, 25, 25, 1), rgba(206, 206, 206, 1));
-	background: -moz-linear-gradient(bottom, rgba(25, 25, 25, 1), rgba(206, 206, 206, 1));
+	background: linear-gradient(top, rgba(25, 25, 25, 1), rgba(206, 206, 206, 1));
+	background: -webkit-linear-gradient(top, rgba(25, 25, 25, 1), rgba(206, 206, 206, 1));
+	background: -moz-linear-gradient(top, rgba(25, 25, 25, 1), rgba(206, 206, 206, 1));
  	padding-bottom: 6em;
  	margin-top: auto;
  	margin-left: auto;
  	margin-right: auto;
- 	border-top: 2pt solid #FD9E6B;
  }
  h4 {
  	color: #CECECE;
@@ -256,6 +255,9 @@ article {
  article {
  	margin-top: 6em;
  	background-color: #323232;
+	background: linear-gradient(top, rgba(25, 25, 25, 1), rgba(150, 150, 150, 1));
+	background: -webkit-linear-gradient(top, rgba(25, 25, 25, 1), rgba(100, 100, 100, 1));
+	background: -moz-linear-gradient(top, rgba(25, 25, 25, 1), rgba(100, 100, 100, 1));
  	padding: 1%;
  	border-top: 2pt solid #FD9E6B;
  }
@@ -323,12 +325,13 @@ h5 {
 	font-size: 200%;
 	text-align: center;
 	line-height: 3em;
+	color: #FD9E6B;
 }
 hr { 
 	margin-top: 2em;  
 }
-#follow { 
-	color: #323232;
+#follow {
+	color: #CECECE;
 	font-family: 'Major Mono Display', monospace;
 	line-height: 1em;
 	font-size: 80%;
@@ -475,6 +478,9 @@ section p {
 	background: -webkit-linear-gradient(bottom, rgba(253, 158, 107, 0), rgba(253, 158, 107, .5));
 	background: -moz-linear-gradient(bottom, rgba(253, 158, 107, 0), rgba(253, 158, 107, .5));
 
+}
+#education {
+	margin-bottom: 6em;
 }
 @media only screen and (max-width: 1375px) {
 	#linklogos img { 
