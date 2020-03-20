@@ -91,11 +91,14 @@ nav figure img {
  	text-decoration: none;
  	color: #FD9E6B;
  	background-color: #323232;
+	background: linear-gradient(top, rgba(25, 25, 25, 1), rgba(150, 150, 150, 1));
+	background: -webkit-linear-gradient(top, rgba(25, 25, 25, 1), rgba(100, 100, 100, 1));
+	background: -moz-linear-gradient(top, rgba(25, 25, 25, 1), rgba(100, 100, 100, 1));
  }
  nav ul li a:hover {
- 	color: #CECECE;
- 	background-color: #FD9E6B;
- 	transition-duration: 1s;
+ 	color: #323232;
+ 	background: #FD9E6B;
+ 	transition-duration: 2s;
 
  }
  #serviceshome { 
