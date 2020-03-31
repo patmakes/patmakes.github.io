@@ -14,7 +14,7 @@ header{
 	background: -webkit-linear-gradient(top, rgba(25, 25, 25, 1), rgba(100, 100, 100, 1));
 	background: -moz-linear-gradient(top, rgba(25, 25, 25, 1), rgba(100, 100, 100, 1));
 	margin-bottom: 1em;
-	border-bottom: 2pt solid #FD9E6B;
+	border-bottom: none;
 }
 header a {
 	font-weight: bolder;
