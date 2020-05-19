@@ -354,7 +354,7 @@ hr {
 	font-size: 20pt;
  	line-height: 1em;
  	border-radius: .5em;
- 	margin: 20%;
+ 	margin: 5%;
  	text-align: center;
  }
  #linklogos img{
@@ -699,10 +699,6 @@ nav figure img {
 	#navholder div a {
 		margin: 0 2% 0 2%;
 	}
-}
-
-@media only screen and (max-width: 432px) {
-
 	#servicecaption h3 {
 		font-size: 8pt;
 	}
@@ -712,9 +708,12 @@ nav figure img {
 	nav hr {
 	visibility: hidden;
 }
-
+body {
+	background-size: auto;
+}
 	#navwrap ul li a {
 		font-size: 90%;
+}
 }
 	#email span {
 	font-size: 8pt;
