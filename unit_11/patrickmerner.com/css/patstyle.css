@@ -602,7 +602,7 @@ nav figure img {
 		max-width: 768px;
 	}*/
 	body {
-		background: url(../images/bassbackgroundsmall.png) fixed no-repeat;
+		background: url("../images/bassbackgroundsmall.png") fixed no-repeat;
 		background-size: 770px;
 	}
 	}
