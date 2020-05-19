@@ -596,15 +596,15 @@ nav figure img {
 		width: 110%;
 		margin: 1em 10% 1em 10%;
 	}
-	body {
+	/*body {
 		background: auto;
 		background-size: auto;
 		max-width: 768px;
-	}
-	/*body {
-		background: url(../images/patpanel.png) fixed no-repeat;
-		background-size: cover;
 	}*/
+	body {
+		background: url(../images/bassbackgroundsmall.png) fixed no-repeat;
+		background-size: cover;
+	}
 	}
 
 @media only screen and (max-width: 756px) {
