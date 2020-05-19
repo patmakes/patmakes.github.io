@@ -534,7 +534,7 @@ section p {
 	}
 }
 
-	/*@media only screen and (max-width: 1025px) {
+	@media only screen and (max-width: 1025px) {
 	
 
 	#navholder div a {
@@ -547,7 +547,7 @@ section p {
 	/*body {
 		background: auto;
 		background-size: auto;
-		max-width: 768px;
+		min-width: 768px;
 	}*/
 }
 	@media only screen and (max-width: 1007px) {
