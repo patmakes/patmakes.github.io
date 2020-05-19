@@ -550,6 +550,9 @@ section p {
 	#servicecaption h3 {
 		font-size: 15pt;
 	}
+		#navwrap ul li a {
+		font-size: 95%;
+	}
 }
 @media only screen and (max-width: 890px) {
 	h2 {
@@ -585,9 +588,7 @@ nav figure img {
 }
 @media only screen and (max-width: 796px) {
 	
-	#navwrap ul li a {
-		font-size: 95%;
-	}
+
 	#navholder div a {
 		font-size: 92%;
 		}
