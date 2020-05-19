@@ -544,12 +544,11 @@ section p {
 		width: 110%;
 		margin: 1em 10% 1em 10%;
 	}
-	/*body {
+	body {
 		background: auto;
 		background-size: auto;
-		max-width: 768px;
-	}*/
-}
+	}
+}*/
 	@media only screen and (max-width: 1007px) {
 		#servicenav img {
 			float: none;
