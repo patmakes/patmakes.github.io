@@ -534,7 +534,7 @@ section p {
 	}
 }
 
-	@media only screen and (max-width: 1025px) {
+	/*@media only screen and (max-width: 1025px) {
 	
 
 	#navholder div a {
@@ -547,7 +547,7 @@ section p {
 	/*body {
 		background: auto;
 		background-size: auto;
-		min-width: 768px;
+		max-width: 768px;
 	}*/
 }
 	@media only screen and (max-width: 1007px) {
@@ -616,9 +616,8 @@ nav figure img {
 }
 	body {
 		background: url("../images/bassbackgroundportrait2.png") fixed no-repeat center;
-		width: auto;
+		/*width: auto;*/
 } 
-}
 @media only screen and (max-width: 745px) {
 
 	#servicecaption h3 {
