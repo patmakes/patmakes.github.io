@@ -20,10 +20,11 @@ header{
 }
 header a {
 	font-weight: bolder;
-	color: #FD9E6B; 
+	color: #323232; 
 	font-size: 35pt;
 	text-align: center;
-	font-family: 'Press Start 2P', cursive;
+	font-family: 'Bungee Hairline', cursive;
+	text-shadow: 3px 1px #FD9E6B;
 	margin-bottom: .25em;
 	text-decoration: none;
 	/*visibility: hidden;*/
@@ -32,7 +33,7 @@ h1 {
 	font-weight: bolder;
 	color: #CECECE; 
 	text-align: center;
-	font-family: 'Press Start 2P', cursive;
+	font-family: 'Bungee Hairline', cursive;
 	text-decoration: none;
 	font-size: 50pt;
 	padding: .5em;
@@ -42,7 +43,7 @@ header span {
 	color: #000;
 }
 h2 {
-	color: #FD9E6B;
+	color: #323232;
 	text-align: left;
 	padding-left: 5%;
 	padding-top: .5%;
@@ -93,24 +94,21 @@ nav figure img {
 }
  nav ul li a {
  	text-align: center;
- 	font-family: 'Press Start 2P', cursive;
+ 	font-family: 'Major Mono Display', monospace;
  	font-size: 20pt;
  	padding: 1em;
- 	border-radius: 1em;
+ 	border-radius: 3em;
  	text-decoration: none;
- 	color: #323232;
- 	background-color: #FD9E6B;
+ 	color: #FD9E6B;
+ 	background-color: #323232;
 	display: inline;
+	border: .1em #CECECE solid;
  }
  nav ul li a:hover {
  	transition-duration: 2s;
- 	color: #FD9E6B;
- 	background-color: #323232;
-	background: linear-gradient(top, rgba(25, 25, 25, 1), rgba(150, 150, 150, 1));
-	background: -webkit-linear-gradient(top, rgba(25, 25, 25, 1), rgba(100, 100, 100, 1));
-	background: -moz-linear-gradient(top, rgba(25, 25, 25, 1), rgba(100, 100, 100, 1));
+ 	color: #323232;
+ 	background-color: #CECECE;
  	border: 4px #CECECE solid;
-
  }
  /*#serviceshome { 
  	margin: 2% 20% 2% 37%; 
@@ -354,23 +352,24 @@ hr {
 	font-size: 20pt;
  	line-height: 1em;
  	border-radius: .5em;
- 	margin: 5%;
+ 	margin-top: 8%;
+ 	padding: 10%;
  	text-align: center;
  }
  #linklogos img{
-	width: 4em;
+	width: 5em;
 	display: inline;
 	float: left;
-	margin: 0em 6% 0em 6%;
+	margin: 0em 1% 0em 1%;
 	border-radius: .5em;
 }
 #linklogos img:hover {
 	color: #323232;
-	background-color: #323232;
+	background-color: #CECECE;
 	transition-duration: 1.5s;
 }
 #linklogos {
-	margin: 1em 23% 1em 23%;
+	margin: 5%;
 	float: none;
 	display: block;
 }
@@ -468,8 +467,10 @@ figcaption {
  #biopic img {
  	float: right;
  	border: .5em black solid;
- 	margin: 0em 2em 8em 2em;
- }
+ 	margin: 0em 2em 8em 2em; 
+	margin-top: 10%;
+	visibility: hidden;
+}
  #right img {
  	width: 20%;
 	border: .2em black solid;
@@ -482,10 +483,6 @@ figcaption {
 	margin: auto;
 	width: 100%;
 }
-#biopic img { 
-	margin-top: 10%;
-}
-
 section p {
 	padding: 2em;
 	background: linear-gradient(bottom, rgba(253, 158, 107, 0), rgba(253, 158, 107, .5));
@@ -496,15 +493,13 @@ section p {
 #education {
 	margin-bottom: 6em;
 }
-@media only screen and (max-width: 1375px) {
+/*@media only screen and (max-width: 1375px) {*/
 	#linklogos img { 
 	margin: 0em 3% 0em 3%;
 }
 	#linklogos {
-		margin: 1em 10% 1em 28%
+		margin: 1em 10% 1em 28%;
 	}
-
-}
 @media only screen and (max-width: 1240px) {
 
 	#servicecaption h3 {
@@ -514,7 +509,7 @@ section p {
 	margin: 0em 3% 0em 3%;
 }
 	#linklogos {
-		margin: 1em 10% 1em 25%
+		margin: 1em 10% 1em 25%;
 	}
 }
 @media only screen and (max-width: 1173px) {
@@ -523,9 +518,9 @@ section p {
 		font-size: 70%;
 	}
 
-	#linklogos img {
-		width: 10%;
-	}
+	/*#linklogos img {
+		width: 15%;
+	}*/
 	 #servicecaption h3 {
 		font-size: 17pt;
 	}
@@ -562,6 +557,19 @@ section p {
 			transform: rotate(30deg);
 			margin-left: 30%;
 		}
+	}
+	@media only screen and (max-width: 964px) {
+		#linklogos {
+			margin: 3%;
+			float: none;
+			display: block;
+			padding-left: 1%;
+}
+#linklogos img {
+	width: 12%;
+	min-width: 37px;
+}
+
 	}
 @media only screen and (max-width: 904px) {
 
@@ -618,6 +626,7 @@ nav figure img {
 		/*width: auto;*/
 		background-size: auto;
 } 
+}
 @media only screen and (max-width: 745px) {
 
 	#servicecaption h3 {
@@ -748,6 +757,13 @@ nav figure img {
 	#navholder {
 		margin-left: 1%;
 	}
+}
+@media only screen and (max-width: 365px) {
+	#linklogos img {
+	width: 10%;
+	min-width: 30px;
+}
+
 }
 @media only screen and (max-width: 350px) {
 	#servicecaption h3 {
