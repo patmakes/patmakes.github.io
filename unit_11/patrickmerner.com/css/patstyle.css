@@ -604,7 +604,7 @@ nav figure img {
 	body {
 		background: url("../images/bassbackgroundsmall.png") fixed no-repeat;
 		background-size: 800px;
-		min-width: 800px;
+		/*min-width: 800px;*/
 	}
 	}
 
