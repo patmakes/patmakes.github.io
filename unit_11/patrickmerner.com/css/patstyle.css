@@ -52,7 +52,7 @@ h2 {
 body {
 	background-color: #000;
 	background: url("../images/bassbackground.png") fixed no-repeat;
-	margin: 0 auto;
+	/*margin: 0 auto;
 	/*max-width: 100%;*/
 }
 nav figure img { 
@@ -608,7 +608,7 @@ nav figure img {
 	margin: 0 25%;
 }
 	body {
-		background: url("../images/bassbackgroundportrait2.png") fixed no-repeat;
+		background: url("../images/bassbackgroundportrait2.png") fixed no-repeat center;
 		/*background-size: cover;*/
 		/*width: auto;*/
 		/*min-width: 800px;*/
