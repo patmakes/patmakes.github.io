@@ -542,12 +542,6 @@ section p {
 		background-size: auto;
 		max-width: 768px;
 	}*/
-	body {
-		background: url("../images/bassbackgroundportrait2.png") fixed no-repeat center;
-		background-size: cover;
-		width: auto;
-		/*min-width: 800px;*/
-	}
 }
 	@media only screen and (max-width: 1007px) {
 		#servicenav img {
@@ -607,13 +601,20 @@ nav figure img {
  	transform: rotate(45deg);
  }
 }
-@media only screen and (max-width: 756px) {
+@media only screen and (max-width: 800px) {
 
 	#biopic img {
 		width: 50%;
 	float: none;
 	margin: 0 25%;
 }
+	body {
+		background: url("../images/bassbackgroundportrait2.png") fixed no-repeat center;
+		/*background-size: cover;*/
+		width: auto;
+		/*min-width: 800px;*/
+		background-color: #000;
+	}
 } 
 @media only screen and (max-width: 745px) {
 
