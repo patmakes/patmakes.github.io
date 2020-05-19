@@ -84,7 +84,7 @@ nav figure img {
  	margin: 1em;
  }*/
  #navwrap ul li {
-	margin: 10% 25% 10% 25%;
+	margin: 8% 25% 8% 25%;
 	text-align: center;
 }
  nav ul li a {
@@ -586,7 +586,7 @@ nav figure img {
  }
 
 }
-@media only screen and (max-width: 796px) {
+@media only screen and (max-width: 770px) {
 	
 
 	#navholder div a {
@@ -603,7 +603,7 @@ nav figure img {
 	}*/
 	body {
 		background: url(../images/bassbackgroundsmall.png) fixed no-repeat;
-		background-size: cover;
+		background-size: 770px;
 	}
 	}
 
