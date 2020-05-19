@@ -586,7 +586,7 @@ nav figure img {
  }
 
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
 	
 
 	#navholder div a {
@@ -602,8 +602,8 @@ nav figure img {
 		max-width: 768px;
 	}*/
 	body {
-		background: url("../images/bassbackgroundsmall.png") fixed no-repeat;
-		background-size: 800px;
+		background: url("../images/bassbackgroundsmall.png");
+		background-size: cover;
 		/*min-width: 800px;*/
 	}
 	}
