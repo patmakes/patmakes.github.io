@@ -591,13 +591,18 @@ nav figure img {
 	#navholder div a {
 		font-size: 92%;
 		}
-	body {
-		background-size: 150%;
-	}
 	#linklogos {
 		width: 110%;
 		margin: 1em 10% 1em 10%;
 	}
+	body {
+		background: auto;
+		background-size: auto;
+	}
+	/*body {
+		background: url(../images/patpanel.png) fixed no-repeat;
+		background-size: cover;
+	}*/
 	}
 
 @media only screen and (max-width: 756px) {
@@ -697,9 +702,6 @@ nav figure img {
 
 	#servicecaption h3 {
 		font-size: 8pt;
-	}
-	body{
-		background-size: 200%;
 	}
 	header {
 		font-size: 80%;
