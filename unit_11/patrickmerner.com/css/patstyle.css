@@ -53,8 +53,7 @@ body {
 	background-color: #000;
 	background: url("../images/bassbackground.png") fixed no-repeat;
 	margin: 0 auto;
-	max-width: 100%;
-
+	/*max-width: 100%;*/
 }
 nav figure img { 
 	width: 18%;
