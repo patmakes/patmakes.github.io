@@ -598,6 +598,7 @@ nav figure img {
 	body {
 		background: auto;
 		background-size: auto;
+		max-width: 768px;
 	}
 	/*body {
 		background: url(../images/patpanel.png) fixed no-repeat;
