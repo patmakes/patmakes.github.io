@@ -586,7 +586,7 @@ nav figure img {
  }
 
 }
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 800px) {
 	
 
 	#navholder div a {
@@ -603,7 +603,7 @@ nav figure img {
 	}*/
 	body {
 		background: url("../images/bassbackgroundsmall.png") fixed no-repeat;
-		background-size: 770px;
+		background-size: 800px;
 	}
 	}
 
