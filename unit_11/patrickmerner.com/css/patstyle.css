@@ -602,6 +602,7 @@ nav figure img {
 		max-width: 768px;
 	}*/
 	body {
+		background: url("../images/bassbackgroundportrait2.png");
 		background-size: cover;
 		width: auto;
 		/*min-width: 800px;*/
