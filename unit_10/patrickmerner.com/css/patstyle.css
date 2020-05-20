@@ -21,18 +21,18 @@ header a {
 	color: #FD9E6B; 
 	font-size: 35pt;
 	text-align: center;
-	font-family: 'Bungee Hairline', cursive;
+	font-family: 'Bungee Hairline', sans-serif;
 	margin-bottom: .25em;
 	text-decoration: none;
-	text-shadow: 1px 3px #CECECE;
+	/*text-shadow: 1px 3px #CECECE;*/
 }
 h1 {
 	font-weight: bolder;
 	color: #FD9E6B; 
 	text-align: center;
-	font-family: 'Bungee Hairline', cursive;
+	font-family: 'Bungee Hairline', sans-serif;
 	text-decoration: none;
-	text-shadow: 3px 1px #CECECE;
+	/*text-shadow: 3px 1px #CECECE;*/
 	font-size: 60pt;
 	padding: .5em;
 }
@@ -42,7 +42,7 @@ h1:hover {
 }
 header span {
 	font-size: 50%;
-	color: #323232;
+	color: #CECECE;
 }
 h2 {
 	color: #FD9E6B;
@@ -94,7 +94,7 @@ nav figure img {
  	margin: 1em;
  }
  nav ul li a {
- 	font-family: 'Major Mono Display', monospace;
+ 	font-family: 'Bungee Hairline', sans-serif;
  	font-size: 20pt;
  	border: .1em #CECECE solid;
  	display: inline;
@@ -308,7 +308,7 @@ p span {
 	font-size: 120%;
 }
 h3 {
-	font-family: 'Major Mono Display', monospace;
+	font-family: 'Bungee Hairline', sans-serif;
 	font-size: 23pt;
 	margin: 2em 15% 4% 15%;
 	text-align: left;
@@ -319,7 +319,7 @@ h3 span {
 	color: #CECECE;
 }
 h4 {
-	font-family: 'Bungee Hairline', cursive;
+	font-family: 'Bungee Hairline', sans-serif;
 	margin: 5% 15% .5em 10%;
 	font-size: 28pt;
 	font-weight: bold;
@@ -330,7 +330,7 @@ h4 span {
 	color: #CECECE;
 }
 h5 {
-	font-family: 'Noto Serif JP', serif;
+	font-family: 'Bungee Hairline', sans-serif;
 	font-weight: bold;
 	font-size: 200%;
 	text-align: center;
@@ -338,12 +338,12 @@ h5 {
 	color: #FD9E6B;
 }
 #blogtitle {
-	color: #CECECE;
-	font-family: 'Major Mono Display', monospace;
+	color: #FD9E6B;
+	font-family: 'Bungee Hairline', sans-serif;
 	line-height: 1em;
 	font-size: 200%;
-	text-decoration: underline;
-	text-shadow: 1px 3px #FD9E6B;
+	text-decoration: none;
+	/*text-shadow: 1px 3px #FD9E6B;*/
 	text-align: left;
 }
 hr { 
