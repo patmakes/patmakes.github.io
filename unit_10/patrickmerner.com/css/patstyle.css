@@ -370,8 +370,8 @@ hr {
 	border-radius: .5em;
 }
 #linklogos img:hover {
-	color: #323232;
-	background-color: #323232;
+	color: #CECECE;
+	background-color: #CECECE;
 	transition-duration: 1.5s;
 }
 #linklogos {
