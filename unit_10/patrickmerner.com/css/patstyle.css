@@ -555,11 +555,11 @@ p {
 			min-width: 30%;
 		}
 		#servicenav {
-			margin: 0 20% 0 20%;
+			margin: 0 20% 20% 20%;
 			min-height: 20em;
 		}
 		#servicenav a h3 {
-			transform: rotate(30deg);
+			/*transform: rotate(30deg);*/
 			margin-left: 30%;
 		}
 	}
