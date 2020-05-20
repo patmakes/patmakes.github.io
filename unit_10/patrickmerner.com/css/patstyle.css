@@ -771,6 +771,10 @@ nav figure img {
 	#navholder {
 		margin-left: 4%;
 	}
+	body {
+		background-size: auto;
+	}
+}
 @media only screen and (max-width: 382px) {
 
 		h3 {
@@ -779,6 +783,9 @@ nav figure img {
 		body{
 		background-size: 250%;
 	}
+	h5 {
+ 	font-size: 140%;
+ }
 }
 @media only screen and (max-width: 350px) {
 	#servicecaption h3 {
