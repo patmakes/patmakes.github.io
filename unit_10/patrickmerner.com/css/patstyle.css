@@ -223,15 +223,17 @@ article {
  	padding-bottom: 3%;
  	
  }
+ p {
+ 	font-family: 'Expletus Sans', sans-serif;
+ }
  article p {
  	font-size: 20pt;
  	line-height: 1.9em;
 	padding: 1% 10% 1% 10%;
 	display: block;
 	color: #CECECE;
-	border-radius: 3em;
+	border-radius: 1em;
 	margin: 1% 20% 1% 20%;
-	font-family: "Noto Serif JP", serif;
 }
  #servicetext p {
  	padding-bottom: 8%;
@@ -294,9 +296,8 @@ section {
 	padding: 2em;
 	display: block;
 	color: #CECECE;
-	border-radius: 3em;
+	border-radius: .5em;
 	margin: 2% 2% 10% 2%;
-	font-family: "Noto Serif JP", serif;
 	padding-top: 1%;
 }
 p span { 
@@ -489,7 +490,7 @@ figcaption {
 	margin-top: 10%;
 }
 
-section p {
+p {
 	padding: 2em;
 	background: linear-gradient(bottom, rgba(253, 158, 107, 0), rgba(253, 158, 107, .5));
 	background: -webkit-linear-gradient(bottom, rgba(253, 158, 107, 0), rgba(253, 158, 107, .5));
@@ -659,12 +660,19 @@ nav figure img {
 		font-size: 100%;
 	}
 	#navholder {
+		margin-left: 18%;
+	}
+	#navholder div a {
+		margin: 0 2% 0 2%;
+	}
+}
+	/*#navholder {
 		margin: 0 auto;
 	}
 	#navholder div a {
 		margin: 0 auto;
 	}
-	}
+	}*/
 @media only screen and (max-width: 557px) {
 
 	#servicecaption h3 {
@@ -742,15 +750,15 @@ nav figure img {
  #abouthome {
  	margin: 10% 20% 2% 70%;
  }
-@media only screen and (max-width: 382px) {
-
-	#navholder div a { 
+ 	#navholder div a { 
 	margin: 0 1% 1em 1%;
 	font-size: 82%; 
 }
 	#navholder {
-		margin-left: 1%;
+		margin-left: 4%;
 	}
+@media only screen and (max-width: 382px) {
+
 		body{
 		background-size: 250%;
 	}
@@ -766,5 +774,17 @@ nav figure img {
 @media only screen and (max-width: 340px) { 
 		#servicecaption h3 {
 		font-size: 6pt;
+	}
+	#navholder div a { 
+	margin: 0 auto;
+}
+	#navholder {
+		margin-left: 4%;
+	}
+}
+@media only screen and (max-width: 305px) {
+	#navholder div a {
+		font-size: 60%;
+	}
 }
 }
