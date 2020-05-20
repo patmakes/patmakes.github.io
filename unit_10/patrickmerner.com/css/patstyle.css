@@ -95,7 +95,7 @@ nav figure img {
  }
  nav ul li a {
  	font-family: 'Bungee Hairline', sans-serif;
- 	font-size: 27pt;
+ 	font-size: 23pt;
  	border: .1em #CECECE solid;
  	display: inline;
  	padding: 1em;
@@ -791,7 +791,10 @@ nav figure img {
 		font-size: 125%;
 	}
 	body {
-		background-size: auto;
+		background-size: 400%;
+	}
+	#username {
+		font-size: 60%;
 	}
 	 #serviceshome { 
  	margin: 2% 20% 2% 5%; 
