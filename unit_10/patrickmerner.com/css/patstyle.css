@@ -24,6 +24,7 @@ header a {
 	font-family: 'Bungee Hairline', cursive;
 	margin-bottom: .25em;
 	text-decoration: none;
+	text-shadow: 1px 3px #CECECE;
 }
 h1 {
 	font-weight: bolder;
@@ -31,11 +32,17 @@ h1 {
 	text-align: center;
 	font-family: 'Bungee Hairline', cursive;
 	text-decoration: none;
-	font-size: 50pt;
+	text-shadow: 3px 1px #CECECE;
+	font-size: 60pt;
 	padding: .5em;
+}
+h1:hover {
+	color: #CECECE;
+	transition-duration: 2s;
 }
 header span {
 	font-size: 50%;
+	color: #323232;
 }
 h2 {
 	color: #FD9E6B;
@@ -43,6 +50,11 @@ h2 {
 	padding-left: 5%;
 	padding-top: .5%;
 	padding-bottom: .5%;
+}
+
+h2:hover {
+	color: #CECECE;
+	transition-duration: 2s;
 }
 
 body {
@@ -150,6 +162,7 @@ aside {
  	margin-top: auto;
  	margin-left: auto;
  	margin-right: auto;
+ 	min-height: 275px;
  }
  h4 {
  	color: #CECECE;
@@ -259,15 +272,12 @@ article {
 	background: -webkit-linear-gradient(top, rgba(25, 25, 25, 1), rgba(100, 100, 100, 1));
 	background: -moz-linear-gradient(top, rgba(25, 25, 25, 1), rgba(100, 100, 100, 1));
  	padding: 1%;
- 	border-top: 2pt solid #FD9E6B;
  }
  
 #youtubewrap iframe {
 	display: block;
 	float: none;
 	margin: 0 auto;
-	width: 90%;
-	min-height: 70%;
 	border-radius: 1em;
 }
 section {
@@ -277,8 +287,6 @@ section {
 	background: -webkit-linear-gradient(top, rgba(25, 25, 25, 1), rgba(100, 100, 100, 1));
 	background: -moz-linear-gradient(top, rgba(25, 25, 25, 1), rgba(100, 100, 100, 1));
  	padding: 1%;
- 	border-top: 2pt solid #FD9E6B;
- 	border-bottom: 2pt solid #FD9E6B;
  }
  section p {
  	font-size: 23pt;
@@ -324,8 +332,17 @@ h5 {
 	font-weight: bold;
 	font-size: 200%;
 	text-align: center;
-	line-height: 3em;
+	line-height: 1.5em;
 	color: #FD9E6B;
+}
+#blogtitle {
+	color: #CECECE;
+	font-family: 'Major Mono Display', monospace;
+	line-height: 1em;
+	font-size: 200%;
+	text-decoration: underline;
+	text-shadow: 1px 3px #FD9E6B;
+	text-align: left;
 }
 hr { 
 	margin-top: 2em;  
@@ -432,14 +449,14 @@ figcaption {
  	background-color: #CECECE55;
  	color: #FD9E6B;
  	border: 2pt solid #FD9E6B;
- 	line-height: 1em;
+ 	line-height: .5em;
  	border-radius: 1em;
- 	padding: 1em;
+ 	padding: .5em;
  	margin-bottom: 10%;
  	margin-top: 2%;
  	font-family: 'Major Mono Display', monospace;
  	text-align: center;
- 	margin-left: 37%;
+ 	margin-left: 25%;
  }
  #email a:hover {
  	color: #CECECE;
@@ -506,7 +523,7 @@ section p {
 @media only screen and (max-width: 1173px) {
 
 	h1 {
-		font-size: 70%;
+		font-size: 90%;
 	}
 
 	#linklogos img {
@@ -587,7 +604,7 @@ nav figure img {
 		background-size: 150%;
 	}
 	#linklogos {
-		width: 110%;
+		width: 90%;
 		margin: 1em 10% 1em 10%;
 	}
 	}
@@ -645,7 +662,7 @@ nav figure img {
 		margin: 0 auto;
 	}
 	#navholder div a {
-		margin: 0 5% 0 5%;
+		margin: 0 auto;
 	}
 	}
 @media only screen and (max-width: 557px) {
@@ -682,6 +699,9 @@ nav figure img {
 	#navholder div a {
 		margin: 0 2% 0 2%;
 	}
+		body{
+		background-size: 200%;
+	}
 
 }
 
@@ -689,9 +709,6 @@ nav figure img {
 
 	#servicecaption h3 {
 		font-size: 8pt;
-	}
-	body{
-		background-size: 200%;
 	}
 	header {
 		font-size: 80%;
@@ -733,6 +750,9 @@ nav figure img {
 }
 	#navholder {
 		margin-left: 1%;
+	}
+		body{
+		background-size: 250%;
 	}
 }
 @media only screen and (max-width: 350px) {

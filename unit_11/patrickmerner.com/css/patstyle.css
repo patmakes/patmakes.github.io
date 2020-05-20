@@ -766,6 +766,9 @@ nav figure img {
 	width: 10%;
 	min-width: 30px;
 }
+#username {
+	font-size: 75%;
+}
 
 }
 @media only screen and (max-width: 350px) {
